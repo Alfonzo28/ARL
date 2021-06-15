@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ARL/static/css/main.61c2f191.chunk.css",
+    "main.js": "/ARL/static/js/main.01c87899.chunk.js",
+    "main.js.map": "/ARL/static/js/main.01c87899.chunk.js.map",
+    "runtime-main.js": "/ARL/static/js/runtime-main.526f1da0.js",
+    "runtime-main.js.map": "/ARL/static/js/runtime-main.526f1da0.js.map",
+    "static/js/2.b34d7950.chunk.js": "/ARL/static/js/2.b34d7950.chunk.js",
+    "static/js/2.b34d7950.chunk.js.map": "/ARL/static/js/2.b34d7950.chunk.js.map",
+    "static/js/3.3997bbc9.chunk.js": "/ARL/static/js/3.3997bbc9.chunk.js",
+    "static/js/3.3997bbc9.chunk.js.map": "/ARL/static/js/3.3997bbc9.chunk.js.map",
+    "index.html": "/ARL/index.html",
+    "static/css/main.61c2f191.chunk.css.map": "/ARL/static/css/main.61c2f191.chunk.css.map",
+    "static/js/2.b34d7950.chunk.js.LICENSE.txt": "/ARL/static/js/2.b34d7950.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/ARL/static/media/bg1.fcb580b3.png",
+    "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
+    "static/media/Dots.3f9cfaea.svg": "/ARL/static/media/Dots.3f9cfaea.svg",
+    "static/media/Ellipse.f0ed53dd.svg": "/ARL/static/media/Ellipse.f0ed53dd.svg",
+    "static/media/Email.c303341b.svg": "/ARL/static/media/Email.c303341b.svg",
+    "static/media/LinkedIn.2ff2f5c2.svg": "/ARL/static/media/LinkedIn.2ff2f5c2.svg",
+    "static/media/PDF.8aaf513c.svg": "/ARL/static/media/PDF.8aaf513c.svg",
+    "static/media/Quote.3fb88f3e.svg": "/ARL/static/media/Quote.3fb88f3e.svg",
+    "static/media/Vimeo.9dd60b5b.svg": "/ARL/static/media/Vimeo.9dd60b5b.svg",
+    "static/media/UxUiProjects.scss": "/ARL/static/media/arl-profile-pic.1979db81.png",
+    "static/media/cinemax-logo.f0e3bf8f.svg": "/ARL/static/media/cinemax-logo.f0e3bf8f.svg",
+    "static/media/disney-logo.dc299b48.svg": "/ARL/static/media/disney-logo.dc299b48.svg",
+    "static/media/drawKit-logo.6ece1c75.svg": "/ARL/static/media/drawKit-logo.6ece1c75.svg",
+    "static/media/figma-logo.1811ef5a.svg": "/ARL/static/media/figma-logo.1811ef5a.svg",
+    "static/media/google-logo.b91f6965.svg": "/ARL/static/media/google-logo.b91f6965.svg",
+    "static/media/netflix-logo.3664f212.svg": "/ARL/static/media/netflix-logo.3664f212.svg",
+    "static/media/platforms-gold-icons.947e9921.svg": "/ARL/static/media/platforms-gold-icons.947e9921.svg",
+    "static/media/stripe-logo.da9b9420.svg": "/ARL/static/media/stripe-logo.da9b9420.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.526f1da0.js",
+    "static/js/2.b34d7950.chunk.js",
+    "static/css/main.61c2f191.chunk.css",
+    "static/js/main.01c87899.chunk.js"
+  ]
+}
