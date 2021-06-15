@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import QuoteBox from '../../components/QuoteBox/QuoteBox';
 import './Testimonies.scss';
-import Test1 from '../../assets/Test 1.svg';
-import Test2 from '../../assets/Test 2.svg';
-import Test3 from '../../assets/Test 3.svg';
-import Test4 from '../../assets/Test 4.svg';
+import Test1 from '../../assets/Test 1.png';
+import Test2 from '../../assets/Test 2.png';
+import Test3 from '../../assets/Test 3.png';
+import Test4 from '../../assets/Test 4.png';
 import Ellipse from '../../assets/Ellipse.svg';
 import Dots from '../../assets/Dots.svg';
 
