@@ -1,0 +1,37 @@
+@import '../../constants/colours.scss';
+
+.bio {
+    row-gap: 0.25rem;
+    flex-direction: column;
+
+    div {
+        color: white;
+    }
+
+    .post-header {
+        color: $primary-color;
+    }
+}
+
+.pre-header {
+    font-size: 1.875rem;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.post-header {
+    font-size: 1.875rem;
+}
+
+.my-bio {
+    padding-bottom: 1rem;
+}
+
+.platforms {
+    width: 17.5rem;
+    height: 2.625rem;
+}

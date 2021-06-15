@@ -1,0 +1,56 @@
+@import '../../constants/colours.scss';
+
+.link-list-container {
+    display: flex;
+    padding: 2% 10%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link {
+    width: 4.0625rem;
+    height: 4.0625rem;
+}
+
+.link-cards-container {
+    display: flex;
+    padding: 2% 0%;
+    background-color: $background-color;
+    flex-direction: column;
+}
+
+.link-list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: $alternate-body-text-color;
+}
+
+.link-container {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.25rem 1.25rem rgba(255, 218, 0, 0.1);
+    flex-direction: column;
+    width: 15.9375rem;
+    height: 14.125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-card-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #101010;
+}
+
+.link-card-body {
+    font-size: 0.75rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 11.9375rem;
+}

@@ -1,0 +1,42 @@
+@import '../../constants/colours.scss';
+
+.pic {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    z-index: 2;
+}
+
+.profile-pic {
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.profile-pic-container {
+    position: relative;
+}
+
+.profile-pic-border {
+    position: absolute;
+    border: 0.125rem solid $primary-color;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    top: 2.125rem;
+    right: -1.5rem;
+    background-color: transparent;
+}
+
+.profile-pic-caption {
+    position: absolute;
+    top: 35%;
+    font-size: 12px;
+    right: -19px;
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}

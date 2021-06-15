@@ -1,0 +1,131 @@
+@import '../../constants/colours.scss';
+
+.project-container {
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;  
+    background-color: $background-color;
+
+    .div {
+        color: $body-text-color;
+    }
+}
+
+
+.project-image {
+    width: 100%;
+}
+
+.the-story-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0% 5%;
+}
+
+.the-story-title {
+    display: flex;
+    font-weight: 800;
+    font-size: 3.75rem;
+    color: $secondary-color;
+}
+
+.the-story-decription {
+    display: flex;
+    font-size: 1.25rem;
+    color: $secondary-color;
+}
+
+.project-body-content {
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;  
+    padding: 0% 5%;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.body-section-label {
+    color: $secondary-color;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.body-section-content {
+    font-size: 1.25rem;  
+    color: $secondary-color;
+}
+
+.personas-wireframes {
+    display: flex;
+    column-gap: 1.375rem;
+}
+
+.see-more-work {
+    height: 39.125rem;
+    background: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.375rem 2rem;
+}
+
+.work-item {
+    width: 34.75rem;
+    height: 4.9375rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.25rem 3.125rem rgba(0, 0, 0, 0.1);
+}
+
+.work-item-image {
+    width: 5.25rem;
+    height: 4.9375rem;
+}
+
+.work-item-title {
+    display: flex;
+    align-items: center;
+    width: 34.75rem;
+    height: 4.9375rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #212121;
+    padding-left: 1.75rem;
+}
+
+.see-more-work-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.see-more-work-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.journey-map {
+    max-width: 82.9375rem;
+    height: 29.875rem;
+}
+
+.wireframes {
+    max-width: 34.75rem;
+    height: 50.9375rem;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}

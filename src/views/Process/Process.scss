@@ -1,0 +1,55 @@
+@import '../../constants/colours.scss';
+
+.process {
+    row-gap: 0.25rem;
+    flex-direction: column;
+
+    .div {
+        color: $body-text-color;
+    }
+}
+
+.process-header-div {
+    flex-direction: row;
+    margin-bottom: 3.75rem;
+}
+
+.pre-header {
+    font-size: 2.25rem;
+    color: $body-text-color;
+    margin-right: 0.5rem;
+}
+
+.header-end {
+    font-size: 2.25rem;
+    color: $primary-color;
+}
+
+.section-container {
+    width: 25.3125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.process-title {
+    font-size: 1.375rem;
+    color: $primary-color;
+    margin-bottom: 1rem;
+}
+
+.process-body {
+    font-size: 1.125rem;
+    color: $body-text-color;
+}
+
+.section-line {
+    width: 25.3125rem;
+    height: 0rem;
+    border: 0.0625rem solid rgba(69, 88, 128, 0.2);
+}
+
+.process-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+}
