@@ -34,37 +34,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -95,37 +65,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
 		image: ARLProfilePic,
@@ -156,37 +96,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
 		image: ARLProfilePic,
@@ -217,37 +127,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -278,37 +158,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -339,37 +189,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			}
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -400,37 +220,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -461,41 +251,7 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Senseflow',
-				image: ARLProfilePic
-			},
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: ARLProfilePic,
@@ -526,40 +282,6 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas'],
-		workItems: [
-			{
-				title: 'Vikela Tech Portal',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Westbury',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Huawei',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Pro-Find',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Capitec',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Absa',
-				image: ARLProfilePic
-			},
-			{
-				title: 'Senseflow',
-				image: ARLProfilePic
-			},
-		]
+		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	}
 ];

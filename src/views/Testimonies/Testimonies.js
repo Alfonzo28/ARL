@@ -86,10 +86,8 @@ export default class Testimonies extends Component {
 
 		return (
 			<div className="testimonies">
-				<div className="concave-top-border"></div>
 				<div className="testimonies-header">{header}</div>
 				<div className="testimonies-container">{this.generateTestimonies(testimonyCards)}</div>
-				<div className="concave-bottom-border"></div>
 			</div>
 		);
 	}

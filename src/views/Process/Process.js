@@ -7,9 +7,14 @@ export default class Process extends Component {
 			<div className="section-container"
 				key={index}
 			>
+				<div className="process-title-index">0{index+1} - </div>
 				<div className="process-title">{processSection?.title}</div>
-				<div className="process-body">{processSection?.body}</div>
-				<hr className="section-line"></hr>
+				<div className="process-list-body">
+					<div className="process-body">
+						{this.generateList(processSection?.body)}
+					</div>
+					<hr className="section-line"></hr>
+				</div>
 			</div>
 		);
 	}
@@ -20,22 +25,40 @@ export default class Process extends Component {
 		}
 	}
 
+	generateList(list) {
+		if (list?.length > 0) {
+			return list.map((bodyItem, index) => {
+				return(
+					<li key={index}>{bodyItem}</li>
+				);
+			});
+		}
+	}
+
 	render() {
 		const preHeader = 'My';
 		const postHeader = 'Process';
 		const processSections = [
 			{
-				title: 'Design',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
+				title: 'EMPATHIZE',
+				body: ['Interviews', 'Shadowing', 'Seek to understand', 'Non-judmental']
 			},
 			{
-				title: 'Design',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
+				title: 'DEFINE',
+				body: ['Personas', 'Role objectives', 'Decisions', 'Challenges', 'Pain points']
 			},
 			{
-				title: 'Design',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
-			}
+				title: 'IDEATE',
+				body: ['Share ideas', 'All ideas worthy', ' Diverge/Converge', '\'\'Yes and\'\' thinking', 'Prioritise']
+			},
+			{
+				title: 'PROTOTYPE',
+				body: ['Mockups', 'Storyboards', 'Keep it simple', 'Fall fast', 'Iterate quickly']
+			},
+			{
+				title: 'TEST',
+				body: ['Understand impediments', ' What works?', 'Role play', 'Iterate quickly']
+			},
 		];
 
 		return (

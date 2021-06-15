@@ -50,9 +50,6 @@ class UxUiProjects extends Component {
 			<div className="project-card">				
 				<div className="project-card-content">
 					<div className="project-card-title">{projectCard?.title}</div>
-					<div className="project-card-description">
-						{projectCard?.description}
-					</div>
 					<div className="project-card-button" onClick={() => this.props.history.push(PROJECT_URL + '/' + index)}>VIEW CASE STUDY</div>
 				</div>
 			</div>

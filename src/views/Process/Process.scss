@@ -26,15 +26,22 @@
 }
 
 .section-container {
-    width: 25.3125rem;
+    width: 26rem;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .process-title {
     font-size: 1.375rem;
     color: $primary-color;
-    margin-bottom: 1rem;
+    margin-right: 2.75rem;
+}
+
+.process-title-index {
+    font-size: 1.375rem;
+    color: $body-text-color;
+    margin-right: 0.5rem;
 }
 
 .process-body {
@@ -42,10 +49,19 @@
     color: $body-text-color;
 }
 
+.process-list-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 11.9375rem;
+}
+
 .section-line {
-    width: 25.3125rem;
-    height: 0rem;
-    border: 0.0625rem solid rgba(69, 88, 128, 0.2);
+    width: 11.9375rem;
+    height: 0.0625rem;
+    background: #F3F3F3;
+    opacity: 0.5;
 }
 
 .process-body {

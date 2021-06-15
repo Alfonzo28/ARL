@@ -4,12 +4,11 @@ import './Card.scss';
 
 export default class Card extends Component {
 	render() {
-		const {cardHeader, cardBody} = this.props;
+		const {cardHeader} = this.props;
 
 		return (
 			<div className="card">
 				<div className="card-header">{cardHeader}</div>
-				<div className="card-body">{cardBody}</div>
 			</div>
 		);
 	}

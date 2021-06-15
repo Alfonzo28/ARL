@@ -146,7 +146,7 @@ export default class Project extends Component {
 					<div className="see-more-work-container">
 						<div className="see-more-work-title">{'SEE MORE OF MY WORK:'}</div>
 						<div className="see-more-work">
-							{this.generateWorkItem(projectsContent?.workItems)}
+							{this.generateWorkItem(projects)}
 						</div>
 					</div>
 				</div>
