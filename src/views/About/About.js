@@ -28,19 +28,15 @@ export default class About extends Component {
 		const aboutCards = [
 			{
 				title: 'UX / UI DESIGN',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
 			},
 			{
 				title: 'FRONT-END DEVELOPMENT',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
 			},
 			{
 				title: 'GRAPHIC DESIGN',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
 			},
 			{
 				title: 'VIDEO EDITING',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.'
 			}
 		];
 

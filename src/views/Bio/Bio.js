@@ -9,17 +9,11 @@ export default class Bio extends Component {
 		const secondName = 'Louw';
 		const postHeader = 'UX/UI & Multimedia designer';
 		const bioParagraph1 = `
-		Qualified I.T. and Multimedia Designer with a demonstrated history of working in the broadcast media industry. Skilled in Customer Service, Research, User Experience (UX), Interaction Design (IXD) and front end development. Strong arts and design professional with a Bachelor's degree focused on Multimedia design from the University of Johannesburg.
+		Education: University of Johannesburg - Boston City Campus and Business College
         `;
 
 		const bioParagraph2 = `
-            Lorem ipsum dolor amet consectetur
-            adipiscing elit sed eiusmod tempor
-            incididunt ut labore.Lorem ipsum dolor amet consectetur
-            adipiscing elit sed eiusmod tempor
-            incididunt ut labore.Lorem ipsum dolor amet consectetur
-            adipiscing elit sed eiusmod tempor
-            incididunt ut labore.
+		Qualified I.T. and Multimedia Designer with a demonstrated history of working in the broadcast media industry. Skilled in Customer Service, Research, User Experience (UX), Interaction Design (IXD) and front end development. Strong arts and design professional with a Bachelor's degree focused on Multimedia design from the University of Johannesburg.
         `;
 
 		return (

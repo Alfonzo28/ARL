@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import QuoteBox from '../../components/QuoteBox/QuoteBox';
 import './Testimonies.scss';
-import ARLProfilePic from '../../assets/arl-profile-pic.png';
+import Test1 from '../../assets/Test 1.svg';
+import Test2 from '../../assets/Test 2.svg';
+import Test3 from '../../assets/Test 3.svg';
+import Test4 from '../../assets/Test 4.svg';
 import Ellipse from '../../assets/Ellipse.svg';
 import Dots from '../../assets/Dots.svg';
 
@@ -59,28 +62,28 @@ export default class Testimonies extends Component {
 		const header = 'Testimonies';
 		const testimonyCards = [
 			{
-				pretitle: 'UX / UI DESIGN',
-				titleEnd: '/CEO at Google inc',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
-				image: ARLProfilePic
+				pretitle: 'James Riviers',
+				titleEnd: '/Design Lead @ SABC NEWS',
+				body: 'Alfonzo is a hardworking person on both a personal and team level. It was a joy to collaborate on projects for SABC NEWS.',
+				image: Test1
 			},
 			{
-				pretitle: 'FRONT-END DEVELOPMENT',
-				titleEnd: '/CEO at Google inc',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
-				image: ARLProfilePic
+				pretitle: 'Janet White',
+				titleEnd: '/Full-Stack Developer @ Retro Rabbit',
+				body: 'Team player and overall great person. Alfonzo is dedicated, energetic, a true go-getter and is destined for greatness.',
+				image: Test2
 			},
 			{
-				pretitle: 'GRAPHIC DESIGN',
-				titleEnd: '/CEO at Google inc',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
-				image: ARLProfilePic
+				pretitle: 'Stacey Thomas',
+				titleEnd: '/Lead Graphic Designer @ MegaVision Media',
+				body: 'He brings an element of humour, inspiration, a great work ethic and believes that hard work strengthens character.',
+				image: Test3
 			},
 			{
-				pretitle: 'VIDEO EDITING',
-				titleEnd: '/CEO at Google inc',
-				body: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
-				image: ARLProfilePic
+				pretitle: 'Richard Welcome',
+				titleEnd: '/Freelance Client',
+				body: 'Alfonzo takes pride in what he does and offers the best quality and attention to detail. An overall great person, great designer and has become a great friend.',
+				image: Test4
 			}
 		];
 
