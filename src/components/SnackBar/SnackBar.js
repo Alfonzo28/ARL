@@ -1,4 +1,5 @@
 import React, { Component } from '../../../node_modules/react';
+import PropTypes from 'prop-types';
 import Snackbar from '../../../node_modules/@material-ui/core/Snackbar';
 import './SnackBar.css';
 
@@ -49,6 +50,6 @@ export default class SnackBar extends Component {
 	}
 }
 
-Card.propTypes = {
+SnackBar.propTypes = {
 	message: PropTypes.string,
 };
