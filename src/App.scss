@@ -36,6 +36,18 @@ html, body, #root, .App {
   row-gap: 8rem;
 }
 
+@media only screen and (max-width: 75.75rem) {
+  .body {
+    display: grid;
+    flex: 1;
+    padding: 8% 6%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 3rem;
+    row-gap: 8rem;
+  }
+}
+
 .single-column-body {
   display: grid;
   flex: 1;

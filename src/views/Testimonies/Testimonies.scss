@@ -37,9 +37,23 @@
     height: 12.5rem;
 }
 
+@media only screen and (max-width: 709px) {
+    .ellipse {
+        max-width: 12.5rem;
+        max-height: 12.5rem;
+    }
+}
+
 .dots {
     width: 12.5rem;
     height: 12.5rem;
+}
+
+@media only screen and (max-width: 709px) {
+    .dots {
+        max-width: 12.5rem;
+        max-height: 12.5rem;
+    }
 }
 
 .ellipse-dot-quote-container {
