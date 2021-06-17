@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Contact.scss';
 import Email from '../../assets/Email.svg';
 import { CONTACT_ME } from '../../constants/headerConstants';
+import { sendContactInfo } from '../../helpers/generalHelper';
+import SnackBar from '../../components/SnackBar/SnackBar';
 
 export default class Contact extends Component {
 	constructor(props) {
@@ -11,12 +13,19 @@ export default class Contact extends Component {
 			lastName: '',
 			phoneNumber: '',
 			message: '',
-			showError: false
+			showError: false,
+			showSnackbar: false,
+			snackbarMessage: ''
 		};
 	}
 
 	handleTextChange(inputText, field) {
 		this.setState({ [field]: inputText });
+	}
+
+	async sendContactInfo() {
+		const response = await sendContactInfo(this.state);
+		this.setState({ showSnack: true, snackbarMessage: response?.data?.message })
 	}
 
 	render() {	
@@ -27,6 +36,11 @@ export default class Contact extends Component {
 
 		return (
 			<div className="contact-container">
+				{this.state.showSnack &&
+        		<SnackBar
+					message={this.state.snackbarMessage}
+				/>
+				}
 				<div className="contact-container-left">
 					<div className="contact-title">{'Get in touch'}</div>
 					<img className="email-icon" src={Email} alt="email"/>
@@ -74,6 +88,7 @@ export default class Contact extends Component {
 					</div>                    
 					<button
 						className="contact-button"
+						onClick={()=>this.sendContactInfo()}
 					>
 						{CONTACT_ME}
 					</button>
