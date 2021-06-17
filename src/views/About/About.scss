@@ -33,6 +33,16 @@
     row-gap: 1.5rem;
 }
 
+@media only screen and (max-width: 723px) {
+    .grid-container {
+        margin-top: 3.75rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 3.8125rem;
+        row-gap: 1.5rem;
+    }
+  }
+
 .left-column {
     display: flex;
     flex-direction: column;
