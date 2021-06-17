@@ -36,7 +36,7 @@ html, body, #root, .App {
   row-gap: 8rem;
 }
 
-@media only screen and (max-width: 75.75rem) {
+@media only screen and (max-width: 1212px) {
   .body {
     display: grid;
     flex: 1;
