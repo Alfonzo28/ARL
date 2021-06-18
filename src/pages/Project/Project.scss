@@ -160,3 +160,21 @@
     flex-direction: column;
     row-gap: 0.5rem;
 }
+
+.scroll-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    background: #F8F8F8;
+    margin-left: auto;
+    margin-right: 6.125rem;
+}
+
+.arrow-up {
+    height: 1.2375rem;
+    width: 0.7294rem;
+}

@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Project.scss';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
+import ArrowUp from '../../assets/arrow_back.svg';
 import Header from '../../components/Header/Header';
 import { projects } from '../UxUiProjects/projects';
 import { PROJECT_URL } from '../../constants/urlConstants';
@@ -153,6 +154,13 @@ class Project extends Component {
 
 						<div className="body-section-label">{'What I\'ve accomplished'}</div>
 						<div className="the-story-decription">{projectsContent?.whatIveAccomplished}</div>
+						<div className="scroll-up-button" onClick={() => window.scrollTo({
+							top: 0,
+							left: 0,
+							behavior: 'smooth'
+						})}>
+							<img className="arrow-up" src={ArrowUp} alt="arrow up"/>
+						</div>
 					</div>
 
 					<div className="see-more-work-container">

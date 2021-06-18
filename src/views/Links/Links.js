@@ -4,6 +4,7 @@ import Behance from '../../assets/Behance.svg';
 import Vimeo from '../../assets/Vimeo.svg';
 import PDF from '../../assets/PDF.svg';
 import LinkedIn from '../../assets/LinkedIn.svg';
+import ArrowUp from '../../assets/arrow_back.svg';
 
 export default class Links extends Component {
 	generateLinks(links) {
@@ -51,6 +52,13 @@ export default class Links extends Component {
 
 		return (
 			<div className="link-cards-container">
+			<div className="scroll-up-button" onClick={() => window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			})}>
+				<img className="arrow-up" src={ArrowUp} alt="arrow up"/>
+			</div>
 				<div className="link-list-container">
 					{this.generateLinks(links)}
 				</div>
