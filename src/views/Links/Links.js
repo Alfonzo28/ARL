@@ -21,7 +21,6 @@ export default class Links extends Component {
 	}
 
 	render() {
-		const header = 'LINKS';
 		const links = [
 			{
 				image: Vimeo,
@@ -52,7 +51,6 @@ export default class Links extends Component {
 
 		return (
 			<div className="link-cards-container">
-				<div className="link-list-title">{header}</div>
 				<div className="link-list-container">
 					{this.generateLinks(links)}
 				</div>

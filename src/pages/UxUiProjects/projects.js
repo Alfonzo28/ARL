@@ -106,7 +106,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The ABSA mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			},
 			{
 				title: 'Target audience:',
@@ -137,7 +137,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The HUAWEI mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			},
 			{
 				title: 'Target audience:',
@@ -168,7 +168,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The VIKELA TECH WEBSITE mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			},
 			{
 				title: 'Target audience:',
@@ -199,7 +199,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The VIKELA PORTAL LOGIN mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			},
 			{
 				title: 'Target audience:',

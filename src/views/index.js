@@ -5,6 +5,7 @@ import Process from './Process/Process';
 import Testimonies from './Testimonies/Testimonies';
 import Links from './Links/Links';
 import Contact from './Contact/Contact';
+import Footnote from './Footnote/Footnote'
 
 export {
 	Bio,
@@ -13,5 +14,6 @@ export {
 	Process,
 	Testimonies,
 	Links,
-	Contact
+	Contact,
+	Footnote
 };

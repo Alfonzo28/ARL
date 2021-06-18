@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './Project.scss';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
 import Header from '../../components/Header/Header';
 import { projects } from '../UxUiProjects/projects';
+import { PROJECT_URL } from '../../constants/urlConstants';
 
-export default class Project extends Component {		
+class Project extends Component {		
 	generateProjects(projectCards) {
 		if (projectCards?.length > 0) {
 			return projectCards.map((projectCard, index) => this.renderCards(projectCard, index, projectCards?.length));
@@ -38,11 +41,20 @@ export default class Project extends Component {
 		}
 	}
 
+	handleClick(index) {
+		this.props.history.push(PROJECT_URL + '/' + index);
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: 'smooth'
+		});	
+	}
+
 	generateWorkItem(workItems) {
 		if (workItems?.length > 0) {
 			return workItems.map((workItem, index) => {
 				return(					
-					<div className="work-item" key={index}>
+					<div onClick={() => this.handleClick(index)} className="work-item" key={index}>
 						<img className="work-item-image" src={workItem?.image} alt="project-image"/>
 						<div className="work-item-title">
 							{workItem?.title}
@@ -154,3 +166,9 @@ export default class Project extends Component {
 		);
 	}
 }
+
+Project.propTypes = {
+	history: PropTypes.array,
+};
+
+export default (withRouter(Project));

@@ -6,7 +6,8 @@ import {
 	Process,
 	Testimonies,
 	Links,
-	Contact
+	Contact,
+	Footnote
 } from '../../views';
 import './Home.scss';
 import Routes from '../../routes/Routes';
@@ -43,13 +44,8 @@ export default class Home extends Component {
 					{this.renderDots()}
 				</div>
 				<Links/>
-				<div className="projects-ellipse-dot-float-right">
-					{this.renderDots()}
-				</div>
 				<Contact/>
-				<div className="projects-ellipse-dot-float-right">
-					{this.renderDots()}
-				</div>
+				<Footnote/>
 			</div>
 		);
 	}

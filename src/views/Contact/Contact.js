@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.scss';
-import Email from '../../assets/Email.svg';
+import Email from '../../assets/contact-image.svg';
 import { CONTACT_ME } from '../../constants/headerConstants';
 import { sendContactInfo } from '../../helpers/generalHelper';
 import SnackBar from '../../components/SnackBar/SnackBar';
@@ -11,7 +11,7 @@ export default class Contact extends Component {
 		this.state = {
 			firstName: '',
 			lastName: '',
-			phoneNumber: '',
+			emailAddress: '',
 			message: '',
 			showError: false,
 			showSnackbar: false,
@@ -31,7 +31,7 @@ export default class Contact extends Component {
 	render() {	
 		const lastName = 'lastName';
 		const firstName = 'firstName';
-		const phoneNumber = 'phoneNumber';
+		const emailAddress = 'emailAddress';
 		const message = 'message';
 
 		return (
@@ -43,8 +43,12 @@ export default class Contact extends Component {
 				}
 				<div className="contact-container-left">
 					<div className="contact-title">{'Get in touch'}</div>
+					<div className="contact-title-end-container">
+						<div className="contact-title-end">{'I\'d love to'}&nbsp;</div>
+						<div className="contact-title-end-hear">{'hear'}&nbsp;</div>
+						<div className="contact-title-end">{'from you.'}</div>
+					</div>
 					<img className="email-icon" src={Email} alt="email"/>
-					<div  className="contact-title-end">{'I\'d love to hear from you.'}</div>
 				</div>
 				<div className="form-field-container">
 					<div className="name-fields-container">
@@ -69,10 +73,10 @@ export default class Contact extends Component {
 					<div className="phoneNumber-field-container">
 						<input
 							className={this.state.showError ? 'error' : 'input'}
-							placeholder={'Phone Number'}
-							value={this.state[phoneNumber]}
+							placeholder={'Email address'}
+							value={this.state[emailAddress]}
 							type={'text'}
-							name={phoneNumber}
+							name={emailAddress}
 							onChange={(e)=>this.handleTextChange(e.target.value, e.target.name)}
 						/>
 					</div>
@@ -92,7 +96,7 @@ export default class Contact extends Component {
 					>
 						{CONTACT_ME}
 					</button>
-				</div>
+				</div>				
 			</div>
 		);
 	}
