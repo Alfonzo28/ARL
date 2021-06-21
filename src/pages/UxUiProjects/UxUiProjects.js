@@ -47,7 +47,8 @@ class UxUiProjects extends Component {
 
 	renderCards(projectCard, index) {
 		return (
-			<div className="project-card">				
+			<div className="project-card">
+				<img className="project-card-image" src={projectCard?.image} alt="project-card-image" key={index}/>				
 				<div className="project-card-content">
 					<div className="project-card-title">{projectCard?.title}</div>
 					<div className="project-card-button" onClick={() => this.props.history.push(PROJECT_URL + '/' + index)}>VIEW CASE STUDY</div>
