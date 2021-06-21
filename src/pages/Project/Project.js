@@ -23,9 +23,9 @@ class Project extends Component {
 						<div className="body-section-label">
 							{bodyItem?.title}
 						</div>
-						<div className="body-section-content">
+						<p className="body-section-content">
 							{bodyItem?.description}
-						</div>
+						</p>
 					</div>
 				);
 			});
@@ -95,7 +95,7 @@ class Project extends Component {
 					</div>
 
 					<div className="the-story-container">
-						<div className="the-story-title">{'Who it’s for'}</div>
+						<div className="the-story-title">{'Tool\'s used'}</div>
 						
 						<div className="the-story-decription">
 							<ul>
