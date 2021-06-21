@@ -67,8 +67,8 @@
     box-shadow: 0rem 0.8125rem 1rem rgba(0, 0, 0, 0.1);
     position: relative;
     z-index:-1;
-    width: 20.125rem;
-    height: 22.5625rem;
+    background-position: center;
+    transform: scale(1.75);
 }
 
 .project-card-content {
