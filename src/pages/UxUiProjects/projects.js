@@ -14,7 +14,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'I served as the designer on the business side of the mobile application. This included UX research, sketches, wireframes and design comps.'
 			},
 			{
 				title: 'Target audience:',
@@ -22,15 +22,15 @@ export const projects = [
 			},
 			{
 				title: 'The Problem',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'SMME businesses made use of old measures to find the ideal candidates. This meant that SMME businesses depended on recruitment companies and in-house H.R teams to find the best possible candidates. Using this old method to recruit applicants prolonged the interview and shortlist process. \n \n Job seekers were put off by the need to create an online profile and upload supporting documents to browse through job listings led to a lot of frustrations.\n \n'
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Designing a mobile application where SMME owners can be notified when candidates meet job requirements, shortlist potential candidates, and forward applicant CVs. Applicants can apply to multiple job posts without having to create user profiles. Users\' can quickly and easily upload their CVs, be notified when their CV has been received, and check the status of their application.'
 			}
 		],
 		journeyMap: JourneyMap,
-		personas: ['We made use of their problems, goals and personalities', 'We made use of more to present our personas to the rest of the team', 'The personas affected the design in a positive way because it enabled us to add additional features like a checklist which allows businesses'],
+		personas: ['We made use of their problems, goals and personalities', 'The personas affected the design in a positive way because it enabled us to add additional features like a checklist which allows businesses to speed up the application process.'],
 		personaImages: [Persona],
 		designCompsImages: [DesignComp1, DesignComp2],
 		wireframes: Wireframes,
@@ -47,7 +47,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'The Capitec mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers to ensure their needs have been met.'
 			},
 			{
 				title: 'Target audience:',
