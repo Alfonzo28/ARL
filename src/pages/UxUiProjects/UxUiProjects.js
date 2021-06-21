@@ -112,9 +112,6 @@ class UxUiProjects extends Component {
 						{this.generateBrandsWorkedFor(brandsWorkedFor)}
 					</div>
 				</div>
-				<div>
-					{this.renderDots()}
-				</div>
 			</div>
 		);
 	}
