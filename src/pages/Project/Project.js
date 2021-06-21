@@ -79,6 +79,16 @@ class Project extends Component {
 		}
 	}
 
+	generateDesignCompsImages(images) {
+		if (images?.length > 0) {
+			return images.map((image, index) => {
+				return(					
+					<img className="design-comps-image" src={image} alt="persona-image" key={index}/>
+				);
+			});
+		}
+	}
+
 	render() {
 		const splitUrl = window.location.href.split('/');
 		const projectIndex = splitUrl?.[splitUrl?.length - 1];
@@ -139,8 +149,8 @@ class Project extends Component {
 						<div className="the-story-title">{'Design Comps'}</div>
 						<div className="the-story-decription">{'The final design comps after a few iterations and testing.'}</div>
 						
-						<div className="images">
-							{this.generateImages(projectsContent?.designCompsImages)}
+						<div className="design-comps-images">
+							{this.generateDesignCompsImages(projectsContent?.designCompsImages)}
 						</div>
 					</div>
 
