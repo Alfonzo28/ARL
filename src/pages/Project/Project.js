@@ -70,7 +70,7 @@ class Project extends Component {
 		if (images?.length > 0) {
 			return images.map((image, index) => {
 				return(					
-					<img src={image} alt="persona-image" key={index}/>
+					<img className="persona-image" src={image} alt="persona-image" key={index}/>
 				);
 			});
 		}
