@@ -5,6 +5,7 @@ import Wireframes from '../../assets/Pro-Find 4.png';
 import DesignComp1 from '../../assets/Pro-Find 5.jpg';
 import DesignComp2 from '../../assets/Pro-Find 6.jpg';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
+import CapitecContainer from '../../assets/Capitec Header.jpg';
 export const projects = [
 	{
 		image: Pro_Findheader,
@@ -41,25 +42,27 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
-		image: ARLProfilePic,
+		image: CapitecContainer,
 		imageAltText: 'ARL',
 		title: 'CAPITEC',
+		storyDecription: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers to ensure their needs have been met.',
 		body: [
 			{
 				title: 'My role on the project',
-				description: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers to ensure their needs have been met.'
+				description: 'I served as the designer on the Capitec project.'
 			},
 			{
 				title: 'Target audience:',
-				description: 'SMME businesses in South Africa and job seeker alike.'
+				description: 'Capitec Relationship managers and their clients.'
 			},
 			{
 				title: 'The Problem',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Currently, Transactional bankers and Relationship managers communicate through social platforms, for example, Whatsapp. However, Relationship managers make use of their personal WhatsApp account when attending to bankers\' requests or are required to carry a bank-allocated cell phone with them. This becomes difficult because Capitec bank has no overview of these conversations which contributes to bad customer service.'
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Creating a WhatsApp portal where Relationship managers can communicate with their bankers, manage their client portfolios, and do follow-ups to ensure clients\' expectations have been met. \nThis allows for:\n',
+				bodylist: ['Customers want to be helped in the most convenient and quickest possible way', 'Relationship managers and Transactional bankers want to serve their customers in a timely and convenient manner','Relationship managers have an overview of client conversations. When a query is not solved in a timeous manner, it can be escalated - thus meeting the clients\'expectations'],
 			}
 		],
 		journeyMap: ARLProfilePic,
@@ -163,7 +166,7 @@ export const projects = [
 	{
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
-		title: 'VIKELA TECH WEBSITE',
+		title: 'VIKELA TECH \nWEBSITE\n',
 		body: [
 			{
 				title: 'My role on the project',
@@ -193,7 +196,7 @@ export const projects = [
 	{
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
-		title: 'VIKELA PORTAL LOGIN',
+		title: 'VIKELA PORTAL \nLOGIN\n',
 		body: [
 			{
 				title: 'My role on the project',
@@ -223,7 +226,7 @@ export const projects = [
 	{
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
-		title: 'VIKELA PORTAL PORTAL',
+		title: 'VIKELA PORTAL \nPORTAL\n',
 		body: [
 			{
 				title: 'My role on the project',
@@ -253,7 +256,7 @@ export const projects = [
 	{
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
-		title: 'SenseFlow',
+		title: 'SENSEFLOW',
 		body: [
 			{
 				title: 'My role on the project',

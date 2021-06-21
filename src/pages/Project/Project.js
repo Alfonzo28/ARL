@@ -23,9 +23,12 @@ class Project extends Component {
 						<div className="body-section-label">
 							{bodyItem?.title}
 						</div>
-						<p className="body-section-content">
+						<div className="body-section-content">
 							{bodyItem?.description}
-						</p>
+						</div>
+						<ul className="solving-problem-list"> 
+								{this.whoIsItForBody(bodyItem?.bodylist)}
+							</ul>  
 					</div>
 				);
 			});
