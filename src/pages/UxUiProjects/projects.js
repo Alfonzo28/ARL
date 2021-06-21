@@ -1,8 +1,13 @@
+import Pro_Findheader from '../../assets/Pro-Find header.jpg';
+import JourneyMap from '../../assets/Pro-Find 2.jpg';
+import Persona from '../../assets/Pro-Find 3.jpg';
+import Wireframes from '../../assets/Pro-Find 4.png';
+import DesignComp1 from '../../assets/Pro-Find 5.jpg';
+import DesignComp2 from '../../assets/Pro-Find 6.jpg';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
-
 export const projects = [
 	{
-		image: ARLProfilePic,
+		image: Pro_Findheader,
 		imageAltText: 'ARL',
 		title: 'PRO-FIND',
 		storyDecription: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.',
@@ -24,11 +29,11 @@ export const projects = [
 				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			}
 		],
-		journeyMap: ARLProfilePic,
+		journeyMap: JourneyMap,
 		personas: ['We made use of their problems, goals and personalities', 'We made use of more to present our personas to the rest of the team', 'The personas affected the design in a positive way because it enabled us to add additional features like a checklist which allows businesses'],
-		personaImages: [ARLProfilePic, ARLProfilePic],
-		designCompsImages: [ARLProfilePic, ARLProfilePic],
-		wireframes: ARLProfilePic,
+		personaImages: [Persona],
+		designCompsImages: [DesignComp1, DesignComp2],
+		wireframes: Wireframes,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',

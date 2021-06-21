@@ -85,7 +85,7 @@ class Project extends Component {
 			<div className="App">			
 				<Header/>
 				<div className="project-container">
-					<img className="project-image" src={ARLProfilePic} alt="project-image"/>
+					<img className="project-image" src={projectsContent?.image} alt="project-image"/>
 					<div className="the-story-container">
 						<div className="the-story-title">{'The Story'}</div>
 						<div className="the-story-decription">{projectsContent?.storyDecription}</div>
