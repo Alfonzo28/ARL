@@ -5,7 +5,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'PRO-FIND',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		storyDecription: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.',
 		body: [
 			{
@@ -40,7 +39,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'CAPITEC',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -71,7 +69,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'WESTBURY',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -102,7 +99,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'ABSA',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -133,7 +129,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'HUAWEI',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -164,7 +159,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'VIKELA TECH WEBSITE',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -195,7 +189,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'VIKELA PORTAL LOGIN',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -226,7 +219,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'VIKELA PORTAL PORTAL',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',
@@ -257,7 +249,6 @@ export const projects = [
 		image: ARLProfilePic,
 		imageAltText: 'ARL',
 		title: 'SenseFlow',
-		description: 'Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore. Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.',
 		body: [
 			{
 				title: 'My role on the project',

@@ -9,7 +9,7 @@ export default class Bio extends Component {
 		const secondName = 'Louw';
 		const postHeader = 'UX/UI & Multimedia designer';
 		const bioParagraph1 = `
-		Education: University of Johannesburg - Boston City Campus and Business College
+		Education: University of Johannesburg -n Boston City Campus and Business College
         `;
 
 		const bioParagraph2 = `
