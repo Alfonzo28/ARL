@@ -87,7 +87,7 @@ class Project extends Component {
 				<div className="project-container">
 					<img className="project-image" src={projectsContent?.image} alt="project-image"/>
 					<div className="the-story-container">
-						<div className="the-story-title">{'The Story'}</div>
+						<div className="the-story-title">{'About the project'}</div>
 						<div className="the-story-decription">{projectsContent?.storyDecription}</div>
 					</div>
 					<div className="project-body-content">
