@@ -145,7 +145,7 @@
 .count-cards-container {
     display: flex;
     padding: 2% 10%;
-    background-color: $background-color;
+    background: linear-gradient(to bottom, transparent 50%, $background-color 50%);
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -160,8 +160,8 @@
 }
 
 .brand{
-    width: 6.875rem;
-    height: 2.125rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .brands-container {
