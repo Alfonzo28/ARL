@@ -7,13 +7,13 @@ import Ellipse from '../../assets/Ellipse.svg';
 import Dots from '../../assets/Dots.svg';
 import Header from '../../components/Header/Header';
 import CardCount from '../../components/CountCard/CountCard';
-import Cinemax from '../../assets/cinemax-logo.svg';
-import Disney from '../../assets/disney-logo.svg';
-import DrawKit from '../../assets/drawKit-logo.svg';
-import Figma from '../../assets/figma-logo.svg';
-import Google from '../../assets/google-logo.svg';
-import Netflix from '../../assets/netflix-logo.svg';
-import Stripe from '../../assets/stripe-logo.svg';
+import Uj from '../../assets/uj.svg';
+import Sabc from '../../assets/sabc.svg';
+import SabcNews from '../../assets/sabc-news.svg';
+import Capitec from '../../assets/capitec.svg';
+import Absa from '../../assets/absa.svg';
+import Huawei from '../../assets/huawei.svg';
+import CoatOfArms from '../../assets/coat-of-arms.svg';
 import { PROJECT_URL } from '../../constants/urlConstants';
 
 class UxUiProjects extends Component {	
@@ -92,7 +92,7 @@ class UxUiProjects extends Component {
 				body: 'Illustrations'
 			}
 		];
-		const brandsWorkedFor = [Netflix, DrawKit, Figma, Cinemax, Stripe, Google, Disney];
+		const brandsWorkedFor = [Huawei, Absa, Capitec, SabcNews, Sabc, Uj, CoatOfArms];
 
 		return (
 			<div className="App">			
@@ -105,9 +105,6 @@ class UxUiProjects extends Component {
 				</div>
 				<div className="count-cards-container">
 					{this.generateCountCards(countCards)}
-				</div>
-				<div className="projects-ellipse-dot-float-right">
-					{this.renderDots()}
 				</div>
 				<div className="brands-container">
 					<div className="brand-list-title">{brandsTitle}</div>
