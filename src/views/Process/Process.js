@@ -7,8 +7,10 @@ export default class Process extends Component {
 			<div className="section-container"
 				key={index}
 			>
+			<div className="process-title-container">
 				<div className="process-title-index">0{index+1} - </div>
 				<div className="process-title">{processSection?.title}</div>
+			</div>
 				<div className="process-list-body">
 					<div className="process-body">
 						{this.generateList(processSection?.body)}

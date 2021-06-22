@@ -17,33 +17,22 @@
     font-size: 2.25rem;
     color: $body-text-color;
     margin-right: 0.5rem;
+    font-weight: 500;
 }
 
 .header-end {
     font-size: 2.25rem;
     color: $primary-color;
+    font-weight: 900;
 }
 
 .grid-container {
     margin-top: 3.75rem;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 3.8125rem;
+    column-gap: 3.75rem;
     row-gap: 1.5rem;
 }
-
-@media only screen and (max-width: 723px) {
-    .grid-container {
-        margin-top: 3.75rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 3.8125rem;
-        row-gap: 1.5rem;
-        justify-content: center;
-    
-    }
-}
-
 
 .left-column {
     display: flex;

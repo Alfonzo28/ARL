@@ -33,6 +33,13 @@
     flex-wrap: wrap;
 }
 
+.process-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
 .process-title {
     font-size: 1.375rem;
     color: $primary-color;
@@ -53,7 +60,6 @@
 .process-list-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 11.9375rem;
 }
