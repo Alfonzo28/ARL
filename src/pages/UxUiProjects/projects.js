@@ -72,7 +72,7 @@ export const projects = [
 			}
 		],
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
+		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'InVision', 'Abstract'],
 		designCompsImages: [CapitecDesignComp1, CapitecDesignComp2],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
