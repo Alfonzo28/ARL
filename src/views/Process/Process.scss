@@ -26,10 +26,11 @@
 }
 
 .section-container {
-    width: 26rem;
+    max-width: 26rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .process-title {
@@ -62,6 +63,15 @@
     height: 0.0625rem;
     background: #F3F3F3;
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 870px) {
+    .section-line {
+        width: 8.9375rem;
+        height: 0.0625rem;
+        background: #F3F3F3;
+        opacity: 0.5;
+    }
 }
 
 .process-body {

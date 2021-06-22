@@ -40,3 +40,10 @@
     text-orientation: mixed;
     transform: rotate(180deg);
 }
+
+@media only screen and (max-width: 520px) {
+    .profile-pic-container {
+        width: 50%;
+        position: relative;
+    }
+}
