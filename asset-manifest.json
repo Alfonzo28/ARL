@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ARL/static/css/main.f51a4940.chunk.css",
-    "main.js": "/ARL/static/js/main.9e6b518a.chunk.js",
-    "main.js.map": "/ARL/static/js/main.9e6b518a.chunk.js.map",
+    "main.css": "/ARL/static/css/main.47b4381c.chunk.css",
+    "main.js": "/ARL/static/js/main.35d84937.chunk.js",
+    "main.js.map": "/ARL/static/js/main.35d84937.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.63f54a82.chunk.js": "/ARL/static/js/2.63f54a82.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.5af67547.chunk.js": "/ARL/static/js/3.5af67547.chunk.js",
     "static/js/3.5af67547.chunk.js.map": "/ARL/static/js/3.5af67547.chunk.js.map",
     "index.html": "/ARL/index.html",
-    "static/css/main.f51a4940.chunk.css.map": "/ARL/static/css/main.f51a4940.chunk.css.map",
+    "static/css/main.47b4381c.chunk.css.map": "/ARL/static/css/main.47b4381c.chunk.css.map",
     "static/js/2.63f54a82.chunk.js.LICENSE.txt": "/ARL/static/js/2.63f54a82.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ARL/static/media/bg1.fcb580b3.png",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
+    "static/media/Capitec Header.7e9c2d7c.jpg": "/ARL/static/media/Capitec Header.7e9c2d7c.jpg",
     "static/media/Dots.3f9cfaea.svg": "/ARL/static/media/Dots.3f9cfaea.svg",
     "static/media/Ellipse.f0ed53dd.svg": "/ARL/static/media/Ellipse.f0ed53dd.svg",
     "static/media/LinkedIn.2ff2f5c2.svg": "/ARL/static/media/LinkedIn.2ff2f5c2.svg",
@@ -31,7 +32,7 @@
     "static/media/Test 4.195aa90e.jpeg": "/ARL/static/media/Test 4.195aa90e.jpeg",
     "static/media/Vimeo.9dd60b5b.svg": "/ARL/static/media/Vimeo.9dd60b5b.svg",
     "static/media/absa.c1b4b78b.svg": "/ARL/static/media/absa.c1b4b78b.svg",
-    "static/media/UxUiProjects.scss": "/ARL/static/media/arl-profile-pic.1979db81.png",
+    "static/media/arl-profile-pic.1979db81.png": "/ARL/static/media/arl-profile-pic.1979db81.png",
     "static/media/arrow_back.b76ee961.svg": "/ARL/static/media/arrow_back.b76ee961.svg",
     "static/media/capitec.59a2e802.svg": "/ARL/static/media/capitec.59a2e802.svg",
     "static/media/coat-of-arms.f4c88b13.svg": "/ARL/static/media/coat-of-arms.f4c88b13.svg",
@@ -47,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.2032db55.js",
     "static/js/2.63f54a82.chunk.js",
-    "static/css/main.f51a4940.chunk.css",
-    "static/js/main.9e6b518a.chunk.js"
+    "static/css/main.47b4381c.chunk.css",
+    "static/js/main.35d84937.chunk.js"
   ]
 }
