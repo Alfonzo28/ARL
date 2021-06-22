@@ -6,6 +6,12 @@ import DesignComp1 from '../../assets/Pro-Find 5.jpg';
 import DesignComp2 from '../../assets/Pro-Find 6.jpg';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
 import CapitecContainer from '../../assets/Capitec Header.jpg';
+import WestburyHeader from '../../assets/Westbury 1.jpg';
+import CapitecDesignComp1 from '../../assets/Capitec 1.jpg';
+import CapitecDesignComp2 from '../../assets/Capitec 2.jpg';
+
+
+
 export const projects = [
 	{
 		image: Pro_Findheader,
@@ -65,18 +71,18 @@ export const projects = [
 				bodylist: ['Customers want to be helped in the most convenient and quickest possible way', 'Relationship managers and Transactional bankers want to serve their customers in a timely and convenient manner','Relationship managers have an overview of client conversations. When a query is not solved in a timeous manner, it can be escalated - thus meeting the clients\'expectations'],
 			}
 		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
+		CapitecdesignCompsImages: [CapitecDesignComp1, CapitecDesignComp2],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
-		image: ARLProfilePic,
+		image: WestburyHeader,
 		imageAltText: 'ARL',
-		title: 'WESTBURY',
+		title: 'WESTBURY LIBRARY',
+		storyDecription: 'Type here',
 		body: [
 			{
 				title: 'My role on the project',
