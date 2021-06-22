@@ -26,7 +26,7 @@
 
 .grid-container {
     margin-top: 3.75rem;
-    display: grid;
+    display: flex;
     grid-template-areas: 'left right';
     grid-template-columns: 1fr 1fr;
     column-gap: 3.8125rem;
@@ -36,12 +36,18 @@
 @media only screen and (max-width: 723px) {
     .grid-container {
         margin-top: 3.75rem;
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr;
         column-gap: 3.8125rem;
         row-gap: 1.5rem;
+        justify-content: center;
+    
+    }
+    .right-column {
+        margin-top: 0rem;
     }
 }
+
 
 .left-column {
     display: flex;
