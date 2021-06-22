@@ -11,11 +11,11 @@ export default class Links extends Component {
 		if (links?.length > 0) {
 			return links.map((link, index) => {
 				return(
-					<div className="link-container" key={index}>
+					<a className="link-container pointer" key={index} href={link?.link}>
 						<img className="link" src={link?.image} alt={link?.imageAltText}/>
 						<div className="link-card-title">{link?.linkCardTitle}</div>
 						<div className="link-card-body">{link?.linkCardBody}</div>
-					</div>
+					</a>
 				);
 			});
 		}
@@ -27,7 +27,8 @@ export default class Links extends Component {
 				image: Vimeo,
 				imageAltText: 'Vimeo logo',
 				linkCardTitle: 'Vimeo',
-				linkCardBody: 'My compilation of 2D animations done at the SABC'
+				linkCardBody: 'My compilation of 2D animations done at the SABC',
+				link: 'https://vimeo.com/user73883179'
 			},
 			{
 				image: Behance,
@@ -39,7 +40,8 @@ export default class Links extends Component {
 				image: LinkedIn,
 				imageAltText: 'LinkedIn logo',
 				linkCardTitle: 'LinkedIn',
-				linkCardBody: 'LinkedIn profile with IDF certifications'
+				linkCardBody: 'LinkedIn profile with IDF certifications',
+				link: 'https://www.linkedin.com/in/alfonzo-louw-345a9716b'
 			},
 			{
 				image: PDF,
