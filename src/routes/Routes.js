@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { HashRouter, Switch, Route} from 'react-router-dom';
 import { HOME_URL, UX_UI_PROJECTS_URL, PROJECT_URL } from '../constants/urlConstants';
 import UxUiProjects from '../pages/UxUiProjects/UxUiProjects';
 import Project from '../pages/Project/Project';
@@ -8,7 +8,7 @@ import Home from '../pages/Home/Home';
 class Routes extends Component {
 	render() {
 		return (
-			<BrowserRouter>
+			<HashRouter>
 				<Switch>
 					<Route exact path={HOME_URL}>
 						<Home />
@@ -20,7 +20,7 @@ class Routes extends Component {
 						<Project />
 					</Route>
 				</Switch>
-			</BrowserRouter>
+			</HashRouter>
 		);
 	}
 }
