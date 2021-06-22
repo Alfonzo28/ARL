@@ -117,13 +117,16 @@ class Project extends Component {
 						</div>
 					</div>
 
-					<div className="the-story-container">
+					{ projectsContent?.journeyMap && 
+						<div className="the-story-container"> 
 						<div className="the-story-title">{'Journey Map'}</div>
 						<div className="the-story-decription">{'Journey map showing the route taken by businesses and applicants before, during and after the application process.'}</div>
 						<img className="journey-map" src={projectsContent?.journeyMap} alt="journey-map"/>
 					</div>
+					}
 
 					<div className="personas-wireframes">
+					{ projectsContent?.personaImages && 
 						<div className="the-story-container">
 							<div className="the-story-title">{'Personas'}</div>
 							<div className="the-story-decription">{'Here we have personas for businesses and applicants'}</div>
@@ -138,11 +141,16 @@ class Project extends Component {
 								{this.generateImages(projectsContent?.personaImages)}
 							</div>
 						</div>
+						
+						}
+
+						{ projectsContent?.wireframes && 
 						<div className="the-story-container">
 							<div className="the-story-title">{'Wireframes'}</div>
 							<div className="the-story-decription">{'I made use of High-fidelity wireframes for testing purposes.'}</div>
 							<img className="wireframes" src={projectsContent?.wireframes} alt="wireframes"/>
 						</div>
+	}
 					</div>
 
 					<div className="the-story-container">
