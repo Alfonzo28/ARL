@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ARL/static/css/main.88101f07.chunk.css",
-    "main.js": "/ARL/static/js/main.483e85a0.chunk.js",
-    "main.js.map": "/ARL/static/js/main.483e85a0.chunk.js.map",
+    "main.js": "/ARL/static/js/main.3f22d01f.chunk.js",
+    "main.js.map": "/ARL/static/js/main.3f22d01f.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.337c98ad.chunk.js": "/ARL/static/js/2.337c98ad.chunk.js",
@@ -35,7 +35,7 @@
     "static/media/Vimeo.9dd60b5b.svg": "/ARL/static/media/Vimeo.9dd60b5b.svg",
     "static/media/Westbury 1.fe380908.png": "/ARL/static/media/Westbury 1.fe380908.png",
     "static/media/absa.c1b4b78b.svg": "/ARL/static/media/absa.c1b4b78b.svg",
-    "static/media/arl-profile-pic.1979db81.png": "/ARL/static/media/arl-profile-pic.1979db81.png",
+    "static/media/arl-profile-pic.0e3089bb.png": "/ARL/static/media/arl-profile-pic.0e3089bb.png",
     "static/media/arrow_back.b76ee961.svg": "/ARL/static/media/arrow_back.b76ee961.svg",
     "static/media/capitec.59a2e802.svg": "/ARL/static/media/capitec.59a2e802.svg",
     "static/media/coat-of-arms.f4c88b13.svg": "/ARL/static/media/coat-of-arms.f4c88b13.svg",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
     "static/css/main.88101f07.chunk.css",
-    "static/js/main.483e85a0.chunk.js"
+    "static/js/main.3f22d01f.chunk.js"
   ]
 }
