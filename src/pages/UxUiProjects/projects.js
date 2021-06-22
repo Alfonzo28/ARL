@@ -1,14 +1,14 @@
-import Pro_Findheader from '../../assets/Pro-Find header.jpg';
-import JourneyMap from '../../assets/Pro-Find 2.jpg';
-import Persona from '../../assets/Pro-Find 3.jpg';
+import Pro_Findheader from '../../assets/Pro-Find header.png';
+import JourneyMap from '../../assets/Pro-Find 2.png';
+import Persona from '../../assets/Pro-Find 3.png';
 import Wireframes from '../../assets/Pro-Find 4.png';
-import DesignComp1 from '../../assets/Pro-Find 5.jpg';
-import DesignComp2 from '../../assets/Pro-Find 6.jpg';
+import DesignComp1 from '../../assets/Pro-Find 5.png';
+import DesignComp2 from '../../assets/Pro-Find 6.png';
 import ARLProfilePic from '../../assets/arl-profile-pic.png';
-import CapitecContainer from '../../assets/Capitec Header.jpg';
-import WestburyHeader from '../../assets/Westbury 1.jpg';
-import CapitecDesignComp1 from '../../assets/Capitec 1.jpg';
-import CapitecDesignComp2 from '../../assets/Capitec 2.jpg';
+import CapitecContainer from '../../assets/Capitec Header.png';
+import WestburyHeader from '../../assets/Westbury 1.png';
+import CapitecDesignComp1 from '../../assets/Capitec 1.png';
+import CapitecDesignComp2 from '../../assets/Capitec 2.png';
 
 
 
