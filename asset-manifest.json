@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ARL/static/css/main.7d5a3b3c.chunk.css",
+    "main.css": "/ARL/static/css/main.6350c4fb.chunk.css",
     "main.js": "/ARL/static/js/main.bd5bc04b.chunk.js",
     "main.js.map": "/ARL/static/js/main.bd5bc04b.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
@@ -10,9 +10,9 @@
     "static/js/3.5af67547.chunk.js": "/ARL/static/js/3.5af67547.chunk.js",
     "static/js/3.5af67547.chunk.js.map": "/ARL/static/js/3.5af67547.chunk.js.map",
     "index.html": "/ARL/index.html",
-    "static/css/main.7d5a3b3c.chunk.css.map": "/ARL/static/css/main.7d5a3b3c.chunk.css.map",
+    "static/css/main.6350c4fb.chunk.css.map": "/ARL/static/css/main.6350c4fb.chunk.css.map",
     "static/js/2.337c98ad.chunk.js.LICENSE.txt": "/ARL/static/js/2.337c98ad.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/ARL/static/media/BG.2211cd1f.svg",
+    "static/media/App.scss": "/ARL/static/media/BG.84f0ff1c.svg",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
     "static/media/Capitec 1.44ba737b.png": "/ARL/static/media/Capitec 1.44ba737b.png",
     "static/media/Capitec 2.de609f50.png": "/ARL/static/media/Capitec 2.de609f50.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
-    "static/css/main.7d5a3b3c.chunk.css",
+    "static/css/main.6350c4fb.chunk.css",
     "static/js/main.bd5bc04b.chunk.js"
   ]
 }
