@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ARL/static/css/main.ca48fce0.chunk.css",
-    "main.js": "/ARL/static/js/main.d776d116.chunk.js",
-    "main.js.map": "/ARL/static/js/main.d776d116.chunk.js.map",
+    "main.css": "/ARL/static/css/main.fc5eb38a.chunk.css",
+    "main.js": "/ARL/static/js/main.84ffe927.chunk.js",
+    "main.js.map": "/ARL/static/js/main.84ffe927.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.337c98ad.chunk.js": "/ARL/static/js/2.337c98ad.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5af67547.chunk.js": "/ARL/static/js/3.5af67547.chunk.js",
     "static/js/3.5af67547.chunk.js.map": "/ARL/static/js/3.5af67547.chunk.js.map",
     "index.html": "/ARL/index.html",
-    "static/css/main.ca48fce0.chunk.css.map": "/ARL/static/css/main.ca48fce0.chunk.css.map",
+    "static/css/main.fc5eb38a.chunk.css.map": "/ARL/static/css/main.fc5eb38a.chunk.css.map",
     "static/js/2.337c98ad.chunk.js.LICENSE.txt": "/ARL/static/js/2.337c98ad.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ARL/static/media/BG.72fbff61.svg",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
-    "static/css/main.ca48fce0.chunk.css",
-    "static/js/main.d776d116.chunk.js"
+    "static/css/main.fc5eb38a.chunk.css",
+    "static/js/main.84ffe927.chunk.js"
   ]
 }
