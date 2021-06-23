@@ -153,7 +153,7 @@ class Header extends Component {
 
 		return (
 			<div className="header">
-				<div className="header-text" onClick={() => this.handleClick(HOME)}>{'ARL'}</div>
+				<div className="header-text header-title" onClick={() => this.handleClick(HOME)}>{'ARL'}</div>
 				<div className="f-1"/>
 				{(!isDesktop && !this.state.dropdownOpen) && <img className="dropdown" src={MobileNavDropdown} alt="dropdown" onClick={() => this.handleMobileDropdown()}/>}
 				{isDesktop && this.renderHeaderButtons()}
