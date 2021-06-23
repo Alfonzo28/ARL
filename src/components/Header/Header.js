@@ -12,7 +12,7 @@ class Header extends Component {
 		super(props);
 		this.state = {
 			isDesktop: false,
-			dropdownOpen: false
+			dropdownOpen: false,
 		};
 	
 		this.updatePredicate = this.updatePredicate.bind(this);
@@ -33,17 +33,33 @@ class Header extends Component {
 	}
 
 	renderHeaderButton(headerButton) {
-		return (
-			<div 
-				key={headerButton}
-				className="header-text header-button"
-				onClick={() => this.handleClick(headerButton)}
-			>
-				<div className="header-item-text">{headerButton}</div>
-				<div className="header-underline">
+		if (window.location.href.includes('project') && headerButton === UX_UI_PROJECTS
+			|| !window.location.href.includes('project') && headerButton === HOME) {
+			return (
+				<div 
+					key={headerButton}
+					className="header-text header-button"
+					onClick={() => this.handleClick(headerButton)}
+				>
+					<div className="header-item-text-highlighted">{headerButton}</div>
+					<div className="header-underline-highlighted">
+					</div>
 				</div>
-			</div>
-		);
+			);		
+		}
+		else {
+			return (
+				<div 
+					key={headerButton}
+					className="header-text header-button"
+					onClick={() => this.handleClick(headerButton)}
+				>
+					<div className="header-item-text">{headerButton}</div>
+					<div className="header-underline">
+					</div>
+				</div>
+			);	
+		}
 	}
 
 	renderHeaderButtons() {
@@ -137,7 +153,7 @@ class Header extends Component {
 
 		return (
 			<div className="header">
-				<div className="header-text header-title" onClick={() => this.handleClick(HOME)}>{'ARL'}</div>
+				<div className="header-text" onClick={() => this.handleClick(HOME)}>{'ARL'}</div>
 				<div className="f-1"/>
 				{(!isDesktop && !this.state.dropdownOpen) && <img className="dropdown" src={MobileNavDropdown} alt="dropdown" onClick={() => this.handleMobileDropdown()}/>}
 				{isDesktop && this.renderHeaderButtons()}
