@@ -23,7 +23,7 @@ export default class Testimonies extends Component {
 
 	renderCards(testimonyCard, index, testimonyCardsLength) {
 		return (
-			<div>
+			<div key={index}>
 				<div className="ellipse-dot-quote-container">
 					<div className="ellipse-container">
 						{index % 2 === 0 && this.renderEllipse()}

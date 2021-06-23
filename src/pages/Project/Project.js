@@ -197,7 +197,7 @@ class Project extends Component {
 }
 
 Project.propTypes = {
-	history: PropTypes.array,
+	history: PropTypes.object,
 };
 
 export default (withRouter(Project));

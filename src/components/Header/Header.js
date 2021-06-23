@@ -176,7 +176,7 @@ class Header extends Component {
 }
 
 Header.propTypes = {
-	history: PropTypes.array,
+	history: PropTypes.object,
 };
 
 export default (withRouter(Header));

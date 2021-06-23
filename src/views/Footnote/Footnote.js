@@ -61,7 +61,7 @@ class Footnote extends Component {
 }
 
 Footnote.propTypes = {
-	history: PropTypes.array,
+	history: PropTypes.object,
 };
 
 export default (withRouter(Footnote));
