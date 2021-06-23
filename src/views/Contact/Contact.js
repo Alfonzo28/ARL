@@ -4,6 +4,9 @@ import Email from '../../assets/contact-image.svg';
 import { CONTACT_ME } from '../../constants/headerConstants';
 import { sendContactInfo } from '../../helpers/generalHelper';
 import SnackBar from '../../components/SnackBar/SnackBar';
+import {
+    EMAIL_REGEX_TEST
+} from '../../constants/generalConstants'
 
 export default class Contact extends Component {
 	constructor(props) {
@@ -13,9 +16,14 @@ export default class Contact extends Component {
 			lastName: '',
 			emailAddress: '',
 			message: '',
-			showError: false,
+			showFirstNameError: false,
+			showLastNameError: false,
+			showEmailAddressError: false,
+			showMessageError: false,
 			showSnackbar: false,
-			snackbarMessage: ''
+			snackbarMessage: '',
+			snackbarLoadingMessage: '',
+			showLoadingSnack: false,
 		};
 	}
 
@@ -24,8 +32,26 @@ export default class Contact extends Component {
 	}
 
 	async sendContactInfo() {
-		const response = await sendContactInfo(this.state);
-		this.setState({ showSnack: true, snackbarMessage: response?.data?.message })
+		const condition = this.state.firstName !== '' && this.state.firstName != null 
+			&& this.state.lastName !== '' && this.state.lastName != null
+			&& this.state.message !== '' && this.state.message != null
+			&& EMAIL_REGEX_TEST.test(String(this.state.emailAddress).toLowerCase());
+		
+		if (condition) {
+			this.setState({ 
+				showLastNameError: false, showMessageError: false, showEmailAddressError: false,
+				showFirstNameError: false, showLoadingSnack: false, snackbarLoadingMessage: 'Sending contact info...'
+			})
+			const response = await sendContactInfo(this.state);
+			this.setState({ showSnack: true, snackbarMessage: response?.data?.message })
+		}
+		else {
+			this.setState({ showFirstNameError: !(this.state.firstName !== '' && this.state.firstName != null) })
+			this.setState({ showLastNameError: !(this.state.lastName !== '' && this.state.lastName != null) })
+			this.setState({ showMessageError: !(this.state.message !== '' && this.state.message != null) })
+			this.setState({ showEmailAddressError: !EMAIL_REGEX_TEST.test(String(this.state.emailAddress).toLowerCase()) })
+			this.setState({ showLoadingSnack: true, snackbarLoadingMessage: 'Please ensure all fields are filled in correctly' })
+		}
 	}
 
 	render() {	
@@ -41,6 +67,11 @@ export default class Contact extends Component {
 					message={this.state.snackbarMessage}
 				/>
 				}
+				{this.state.showLoadingSnack &&
+        		<SnackBar
+					message={this.state.snackbarLoadingMessage}
+				/>
+				}
 				<div className="contact-container-left">
 					<div className="contact-title">{'Get in touch'}</div>
 					<div className="contact-title-end-container">
@@ -53,7 +84,7 @@ export default class Contact extends Component {
 				<div className="form-field-container">
 					<div className="name-fields-container">
 						<input
-							className={this.state.showError ? 'error' : 'input'}
+							className={this.state.showFirstNameError ? 'error' : 'input'}
 							placeholder={'First Name'}
 							value={this.state[firstName]}
 							type={'text'}
@@ -62,7 +93,7 @@ export default class Contact extends Component {
 						/>
 
 						<input
-							className={this.state.showError ? 'error' : 'input'}
+							className={this.state.showLastNameError ? 'error' : 'input'}
 							type={'text'}
 							placeholder={'Last Name'}
 							value={this.state[lastName]}
@@ -72,7 +103,7 @@ export default class Contact extends Component {
 					</div>
 					<div className="phoneNumber-field-container">
 						<input
-							className={this.state.showError ? 'error' : 'input'}
+							className={this.state.showEmailAddressError ? 'error' : 'input'}
 							placeholder={'Email address'}
 							value={this.state[emailAddress]}
 							type={'text'}
@@ -82,7 +113,7 @@ export default class Contact extends Component {
 					</div>
 					<div className="message-field-container">
 						<input
-							className={this.state.showError ? 'error' : 'input'}
+							className={this.state.showMessageError ? 'error' : 'input'}
 							placeholder={'Message'}
 							value={this.state[message]}
 							type={'text'}
