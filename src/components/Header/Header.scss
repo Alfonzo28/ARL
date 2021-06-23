@@ -79,6 +79,12 @@ $animate: all 0.4s ease-in-out;
 }
 
 .dropdown {
+    width: 1.125rem;
+    height: 0.75rem;
+    cursor: pointer;
+}
+
+.dropdown-close {
     padding-top: 1rem;
     width: 1.125rem;
     height: 0.75rem;

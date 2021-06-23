@@ -159,7 +159,7 @@ class Header extends Component {
 				{isDesktop && this.renderHeaderButtons()}
 				{(!isDesktop && this.state.dropdownOpen) && 
 				<div className="mobile-header-buttons">					
-					{(!isDesktop && this.state.dropdownOpen) && <img className="dropdown" src={MobileCloseDropdown} alt="dropdown" onClick={() => this.handleMobileDropdown()}/>}
+					{(!isDesktop && this.state.dropdownOpen) && <img className="dropdown-close" src={MobileCloseDropdown} alt="dropdown" onClick={() => this.handleMobileDropdown()}/>}
 					{this.renderMobileHeaderButtons()}
 				</div>
 				}
