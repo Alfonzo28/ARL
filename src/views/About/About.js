@@ -36,7 +36,7 @@ export default class About extends Component {
 				title: 'GRAPHIC DESIGN',
 			},
 			{
-				title: 'VIDEO EDITING',
+				title: 'VIDEO EDITING & ANIMATION',
 			}
 		];
 
