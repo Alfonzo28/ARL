@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ARL/static/css/main.407468d1.chunk.css",
-    "main.js": "/ARL/static/js/main.ec9ad931.chunk.js",
-    "main.js.map": "/ARL/static/js/main.ec9ad931.chunk.js.map",
+    "main.js": "/ARL/static/js/main.b1926163.chunk.js",
+    "main.js.map": "/ARL/static/js/main.b1926163.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.337c98ad.chunk.js": "/ARL/static/js/2.337c98ad.chunk.js",
@@ -12,6 +12,8 @@
     "index.html": "/ARL/index.html",
     "static/css/main.407468d1.chunk.css.map": "/ARL/static/css/main.407468d1.chunk.css.map",
     "static/js/2.337c98ad.chunk.js.LICENSE.txt": "/ARL/static/js/2.337c98ad.chunk.js.LICENSE.txt",
+    "static/media/Absa 1.b8b09cb5.png": "/ARL/static/media/Absa 1.b8b09cb5.png",
+    "static/media/Absa 2.56265507.png": "/ARL/static/media/Absa 2.56265507.png",
     "static/media/Absa Header.5cce2e1f.png": "/ARL/static/media/Absa Header.5cce2e1f.png",
     "static/media/App.scss": "/ARL/static/media/BG.72fbff61.svg",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
@@ -36,6 +38,9 @@
     "static/media/Test 2.2ee223ba.png": "/ARL/static/media/Test 2.2ee223ba.png",
     "static/media/Test 3.61ffeb4b.png": "/ARL/static/media/Test 3.61ffeb4b.png",
     "static/media/Test 4.e34e157e.png": "/ARL/static/media/Test 4.e34e157e.png",
+    "static/media/Vikela Portal 1.b1d35bd2.png": "/ARL/static/media/Vikela Portal 1.b1d35bd2.png",
+    "static/media/Vikela Portal 2.ba763cbb.png": "/ARL/static/media/Vikela Portal 2.ba763cbb.png",
+    "static/media/Vikela Portal Header.b8e78dcd.png": "/ARL/static/media/Vikela Portal Header.b8e78dcd.png",
     "static/media/Vikela light 1.4a5773ec.png": "/ARL/static/media/Vikela light 1.4a5773ec.png",
     "static/media/Vikela light 2.471eb992.png": "/ARL/static/media/Vikela light 2.471eb992.png",
     "static/media/VikelaWeb Header.41474642.png": "/ARL/static/media/VikelaWeb Header.41474642.png",
@@ -61,6 +66,6 @@
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
     "static/css/main.407468d1.chunk.css",
-    "static/js/main.ec9ad931.chunk.js"
+    "static/js/main.b1926163.chunk.js"
   ]
 }
