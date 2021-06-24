@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ARL/static/css/main.688b79b1.chunk.css",
-    "main.js": "/ARL/static/js/main.afe07a6b.chunk.js",
-    "main.js.map": "/ARL/static/js/main.afe07a6b.chunk.js.map",
+    "main.css": "/ARL/static/css/main.407468d1.chunk.css",
+    "main.js": "/ARL/static/js/main.696fe02f.chunk.js",
+    "main.js.map": "/ARL/static/js/main.696fe02f.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.337c98ad.chunk.js": "/ARL/static/js/2.337c98ad.chunk.js",
@@ -10,8 +10,9 @@
     "static/js/3.5af67547.chunk.js": "/ARL/static/js/3.5af67547.chunk.js",
     "static/js/3.5af67547.chunk.js.map": "/ARL/static/js/3.5af67547.chunk.js.map",
     "index.html": "/ARL/index.html",
-    "static/css/main.688b79b1.chunk.css.map": "/ARL/static/css/main.688b79b1.chunk.css.map",
+    "static/css/main.407468d1.chunk.css.map": "/ARL/static/css/main.407468d1.chunk.css.map",
     "static/js/2.337c98ad.chunk.js.LICENSE.txt": "/ARL/static/js/2.337c98ad.chunk.js.LICENSE.txt",
+    "static/media/Absa Header.5cce2e1f.png": "/ARL/static/media/Absa Header.5cce2e1f.png",
     "static/media/App.scss": "/ARL/static/media/BG.72fbff61.svg",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
     "static/media/Capitec 1.44ba737b.png": "/ARL/static/media/Capitec 1.44ba737b.png",
@@ -19,6 +20,9 @@
     "static/media/Capitec Header.de6400a2.png": "/ARL/static/media/Capitec Header.de6400a2.png",
     "static/media/Dots.3f9cfaea.svg": "/ARL/static/media/Dots.3f9cfaea.svg",
     "static/media/Ellipse.f0ed53dd.svg": "/ARL/static/media/Ellipse.f0ed53dd.svg",
+    "static/media/Huawei 1.d0d8ab62.png": "/ARL/static/media/Huawei 1.d0d8ab62.png",
+    "static/media/Huawei 2.e694fc59.png": "/ARL/static/media/Huawei 2.e694fc59.png",
+    "static/media/Huawei Header.7fe7066a.png": "/ARL/static/media/Huawei Header.7fe7066a.png",
     "static/media/LinkedIn.2ff2f5c2.svg": "/ARL/static/media/LinkedIn.2ff2f5c2.svg",
     "static/media/PDF.8aaf513c.svg": "/ARL/static/media/PDF.8aaf513c.svg",
     "static/media/Pro-Find 2.65854b1c.png": "/ARL/static/media/Pro-Find 2.65854b1c.png",
@@ -32,13 +36,17 @@
     "static/media/Test 2.2ee223ba.png": "/ARL/static/media/Test 2.2ee223ba.png",
     "static/media/Test 3.61ffeb4b.png": "/ARL/static/media/Test 3.61ffeb4b.png",
     "static/media/Test 4.e34e157e.png": "/ARL/static/media/Test 4.e34e157e.png",
+    "static/media/Vikela light 1.4a5773ec.png": "/ARL/static/media/Vikela light 1.4a5773ec.png",
+    "static/media/Vikela light 2.471eb992.png": "/ARL/static/media/Vikela light 2.471eb992.png",
+    "static/media/VikelaWeb Header.41474642.png": "/ARL/static/media/VikelaWeb Header.41474642.png",
+    "static/media/VikelaWeb black 1.0ab9d5bb.png": "/ARL/static/media/VikelaWeb black 1.0ab9d5bb.png",
+    "static/media/VikelaWeb black 2.908f2882.png": "/ARL/static/media/VikelaWeb black 2.908f2882.png",
     "static/media/Vimeo.9dd60b5b.svg": "/ARL/static/media/Vimeo.9dd60b5b.svg",
     "static/media/Westbury 1.fe380908.png": "/ARL/static/media/Westbury 1.fe380908.png",
     "static/media/absa.c1b4b78b.svg": "/ARL/static/media/absa.c1b4b78b.svg",
     "static/media/arl-profile-pic.0e3089bb.png": "/ARL/static/media/arl-profile-pic.0e3089bb.png",
     "static/media/arrow_back.b76ee961.svg": "/ARL/static/media/arrow_back.b76ee961.svg",
     "static/media/capitec.59a2e802.svg": "/ARL/static/media/capitec.59a2e802.svg",
-    "static/media/coat-of-arms.f4c88b13.svg": "/ARL/static/media/coat-of-arms.f4c88b13.svg",
     "static/media/contact-image.4c659263.svg": "/ARL/static/media/contact-image.4c659263.svg",
     "static/media/huawei.1fa6a286.svg": "/ARL/static/media/huawei.1fa6a286.svg",
     "static/media/mobile-close-dropdown.ccf65c64.svg": "/ARL/static/media/mobile-close-dropdown.ccf65c64.svg",
@@ -51,7 +59,7 @@
   "entrypoints": [
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
-    "static/css/main.688b79b1.chunk.css",
-    "static/js/main.afe07a6b.chunk.js"
+    "static/css/main.407468d1.chunk.css",
+    "static/js/main.696fe02f.chunk.js"
   ]
 }
