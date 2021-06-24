@@ -18,6 +18,12 @@ import VikelaWebDesignComp1 from '../../assets/VikelaWeb black 1.png';
 import VikelaWebDesignComp2 from '../../assets/VikelaWeb black 2.png';
 import VikelaWebDesignComp3 from '../../assets/Vikela light 1.png';
 import VikelaWebDesignComp4 from '../../assets/Vikela light 2.png';
+import Absadesign1 from '../../assets/Absa 1.png';
+import Absadesign2 from '../../assets/Absa 2.png';
+import VikelaDesignComp1 from '../../assets/Vikela Portal Header.png';
+import VikelaDesignComp2 from '../../assets/Vikela Portal 1.png';
+import VikelaDesignComp3 from '../../assets/Vikela Portal 2.png';
+
 
 
 
@@ -84,30 +90,29 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'InVision', 'Abstract'],
 		designCompsImages: [CapitecDesignComp1, CapitecDesignComp2],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
+		whatIveLearned: ['Developed the interfaces using the existing components in the Capitec framework', 'Redesigned the UX and UI of the existing WhatsApp application and added additional features which improves communication between Relationship managers and their clients', 'Improved on how referrals and escalations take place between Relationship managers', 'Added features that sped up the request time']		
 	},
 	{
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Westbury%201.png?alt=media&token=891ce3b3-c70d-4bab-be46-a37a09a014af",
 		imageAltText: 'ARL',
 		title: 'WESTBURY LIBRARY',
-		storyDecription: 'Type here',
+		storyDecription: 'The Westbury library case study was my final year-end project. Having attended Westbury secondary school, distance learning was a known problem for many. The limitations and constraints of distance learning, getting and sharing information was impossible. I had to find a way of bridging the gap.',
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'The Westbury mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The brief was to complete a UX case study independently. This case study would eventually link to my 10 000 word thesis on improving the Westbury library through a UXD approach.'
 			},
 			{
 				title: 'Target audience:',
-				description: 'SMME businesses in South Africa and job seeker alike.'
+				description: 'My intended users were library staff and students within the Westbury community.'
 			},
 			{
 				title: 'The Problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The Westbury library had become irrelevant for high school students within the community. Its contributions were outdated books, broken equipment, and Wi-Fi that\'s not always accessible. Amongst other problems, the physical space was limited.'
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'To fully understand my users\' I visited the Westbury library to identify their habits and key frustrations. My trip to the library gave me some insights and assisted in ways to potentially tackle the problem. I needed to create a product that bridged the gap between distance learning and obtaining data - the needs of the users\' were met, in this case, being the library staff and high school students.'
 			}
 		],
 		journeyMap: ARLProfilePic,
@@ -122,32 +127,31 @@ export const projects = [
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Absa%20Header.png?alt=media&token=760e35a1-5318-4f58-9d77-ba6ec0adea87",
 		imageAltText: 'ARL',
 		title: 'ABSA',
-		storyDecription: 'Type here',
+		storyDecription: 'Tax evasion is a major problem for jurisdictions all over the world and the purpose of the Tax Reporting Tool is to facilitate co-operation between tax administrations and exchange of information, which is essential in the fight against tax evasion.',
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'The ABSA mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Designer for Phase 2 of the FATCA project.'
 			},
 			{
 				title: 'Target audience:',
-				description: 'SMME businesses in South Africa and job seeker alike.'
+				description: 'FATCA / CRS Absa team.'
 			},
 			{
 				title: 'The Problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'The FATCA / CRS reporting tool had reached its “End of Life” maintenance and support agreement. The past vendor has reached a strategic decision of not retaining this product from November 2019, on its current suite of products. This decision had further delayed the reporting for the Submission year 2020 as ABSA FATCA/CRS is now completely reliant on manual process.'
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Creating a desktop application where tax operators can perform FATCA/CRS identification, remediation, and classification. This process used to be manual, but the FATCA reporting tool has changed this by using basic functionality.'
 			}
 		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
-		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
+
+		whoIsItFor: ['Sketch', 'Adobe Creative Cloud', 'InVision'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
+		designCompsImages: [Absadesign1, Absadesign2],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
+		whatIveLearned: ['Added features that improved how tax ops team carry out FATCA / CRS operations', 'Developed the interfaces using the existing components in the Absa framework'],
 	},
 	{
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Huawei%20Header.png?alt=media&token=7b36a0d2-7d05-4972-94c0-86bffe15a600",
@@ -205,10 +209,40 @@ export const projects = [
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		designCompsImages: [VikelaWebDesignComp1, VikelaWebDesignComp2, VikelaWebDesignComp3, VikelaWebDesignComp4],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
+		whatIveAccomplished: 'I set out to complete a simple yet clean UI design for Vikela Tech. This website needed to use the best UX practices to ensure a simple yet effective user flow.',
+		whatIveLearned: ['The clean design allows easy navigation for users and allows for less strain on the human eye', 'Working at a faster pace due to the tight deadline of this project']
 	},
 	
+	{
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Vikela%20Portal%20Header.png?alt=media&token=45ecf930-f4ee-4400-b322-7d6b0058efd3",
+		imageAltText: 'ARL',
+		title: 'VIKELA TECH \nPORTAL\n',
+		storyDecription: 'The Vikela web portal is where users can track the status of their smart safe and the contents within.',
+		body: [
+			{
+				title: 'My role on the project:',
+				description: 'UX/UI designer'
+			},
+			{
+				title: 'Target audience:',
+				description: 'This portal was created to assist those who\'ve purchased smart safe from Vikela Tech.'
+			},
+			{
+				title: 'The Problem:',
+				description: 'Users needed a desktop application where they could monitor their smart safe, the devices connected, the bills deposited, and the bag status. It was easy for bags containing notes to be tempered with - this meant that theft, miscalculation, and damage could occur.'
+			},
+			{
+				title: 'Solving the problem:',
+				description: 'The development team briefed us on what features the smart safe had and how it differed from a conventional safe. This allowed us to compile enough information on how the safe works, what the needs of the users are and what goals they\'re trying to achieve. '
+			}
+		],
+		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
+		whoIsItForImages: ['Sketch', 'Zeplin', 'Adobe Creative Cloud'],
+		designCompsImages: [VikelaDesignComp1, VikelaDesignComp2, VikelaDesignComp3],
+		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
+		whatIveAccomplished: 'My goal for this project was to design something sleek, with a dark theme, that allowed for easy adding of content and some gamification elements - something users can easily navigate through to complete desired tasks.',
+		whatIveLearned: ['What goes into dark UI design and what the pros and cons are', 'To work against the clock in order to produce quality and achieve my daily goals']
+	},
 
 ];
 

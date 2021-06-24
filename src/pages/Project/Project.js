@@ -157,7 +157,8 @@ class Project extends Component {
 						<div className="the-story-title">{'Design Comps'}</div>
 						<div className="the-story-decription">{'The final design comps after a few iterations and testing.'}</div>
 						
-						<div className="the-story-decription"> <b> {'Some features of the system include:'} </b> </div>
+						{ projectsContent?.features && 
+						<div className="the-story-decription"> <b> {'Some features of the system include:'} </b> </div>}
 						{ projectsContent?.features && 
 						<div className="the-story-decription">
 							<ul>
@@ -189,8 +190,10 @@ class Project extends Component {
 							</ul>  
 						</div>
 						}
-						<div className="body-section-label">{'What I\'ve accomplished'}</div>
-						<div className="the-story-decription">{projectsContent?.whatIveAccomplished}</div>
+						{ projectsContent?.whatIveAccomplished && 
+						<div className="body-section-label">{'What I\'ve accomplished'}</div>}
+						{ projectsContent?.whatIveAccomplished && 
+						<div className="the-story-decription">{projectsContent?.whatIveAccomplished}</div>}
 						<div className="scroll-up-button" onClick={() => window.scrollTo({
 							top: 0,
 							left: 0,
