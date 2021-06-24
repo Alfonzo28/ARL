@@ -23,7 +23,7 @@ import VikelaWebDesignComp4 from '../../assets/Vikela light 2.png';
 
 export const projects = [
 	{
-		image: Pro_Findheader,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Pro-Find%20header.png?alt=media&token=dad20731-0bcc-484f-b718-1914810e541b",
 		imageAltText: 'ARL',
 		title: 'PRO-FIND',
 		storyDecription: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.',
@@ -57,7 +57,7 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
-		image: CapitecContainer,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Capitec%20Header.png?alt=media&token=13a3e530-9f9c-4bbc-b336-f687dcf558d3",
 		imageAltText: 'ARL',
 		title: 'CAPITEC',
 		storyDecription: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers to ensure their needs have been met.',
@@ -88,7 +88,7 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
-		image: WestburyHeader,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Westbury%201.png?alt=media&token=891ce3b3-c70d-4bab-be46-a37a09a014af",
 		imageAltText: 'ARL',
 		title: 'WESTBURY LIBRARY',
 		storyDecription: 'Type here',
@@ -119,7 +119,7 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
-		image: AbsaContainer,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Absa%20Header.png?alt=media&token=760e35a1-5318-4f58-9d77-ba6ec0adea87",
 		imageAltText: 'ARL',
 		title: 'ABSA',
 		storyDecription: 'Type here',
@@ -150,7 +150,7 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
-		image: HuaweiContainer,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Huawei%20Header.png?alt=media&token=7b36a0d2-7d05-4972-94c0-86bffe15a600",
 		imageAltText: 'ARL',
 		title: 'HUAWEI',
 		storyDecription: 'The Huawei tracking system allows users to monitor and track miners and vehicle activity on a mining site. The system could also be used to monitor the spread and outbreak of the COVID-19 virus',
@@ -179,7 +179,7 @@ export const projects = [
 		whatIveAccomplished: ['My aim for this project was to design a system that could potentially save millions of lives within the mining sector of South Africa. This system would need to monitor real-time data, track and stop the spread of the COVID-19 virus within the mining community.']
 	},
 	{
-		image: VikelaWebHeader,
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/VikelaWeb%20Header.png?alt=media&token=9113e13a-4922-4f1d-9e2e-63ef76b110c6",
 		imageAltText: 'ARL',
 		title: 'VIKELA TECH \nWEBSITE\n',
 		storyDecription: 'The Vikela website is where users can build there own unique safe, enquire about Vikela products and access the Vikela Tech portal',
@@ -201,8 +201,6 @@ export const projects = [
 				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
 			}
 		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		designCompsImages: [VikelaWebDesignComp1, VikelaWebDesignComp2, VikelaWebDesignComp3, VikelaWebDesignComp4],
@@ -211,66 +209,5 @@ export const projects = [
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	
-	{
-		image: ARLProfilePic,
-		imageAltText: 'ARL',
-		title: 'VIKELA PORTAL \nPORTAL\n',
-		storyDecription: 'Type here',
-		body: [
-			{
-				title: 'My role on the project:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			},
-			{
-				title: 'Target audience:',
-				description: 'SMME businesses in South Africa and job seeker alike.'
-			},
-			{
-				title: 'The Problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			},
-			{
-				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			}
-		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
-		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
-	},
-	{
-		image: ARLProfilePic,
-		imageAltText: 'ARL',
-		title: 'SENSEFLOW',
-		storyDecription: 'Type here',
-		body: [
-			{
-				title: 'My role on the project:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			},
-			{
-				title: 'Target audience:',
-				description: 'SMME businesses in South Africa and job seeker alike.'
-			},
-			{
-				title: 'The Problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			},
-			{
-				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
-			}
-		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
-		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
-		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
-	}
+
 ];
