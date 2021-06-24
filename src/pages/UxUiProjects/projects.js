@@ -58,8 +58,7 @@ export const projects = [
 		wireframes: Wireframes,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
+		whatIveAccomplished: 'My aim was to see this project develop from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
@@ -89,7 +88,6 @@ export const projects = [
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'InVision', 'Abstract'],
 		designCompsImages: [CapitecDesignComp1, CapitecDesignComp2],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveLearned: ['Developed the interfaces using the existing components in the Capitec framework', 'Redesigned the UX and UI of the existing WhatsApp application and added additional features which improves communication between Relationship managers and their clients', 'Improved on how referrals and escalations take place between Relationship managers', 'Added features that sped up the request time']		
 	},
 	{
@@ -150,7 +148,6 @@ export const projects = [
 		whoIsItFor: ['Sketch', 'Adobe Creative Cloud', 'InVision'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		designCompsImages: [Absadesign1, Absadesign2],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveLearned: ['Added features that improved how tax ops team carry out FATCA / CRS operations', 'Developed the interfaces using the existing components in the Absa framework'],
 	},
 	{
@@ -186,7 +183,7 @@ export const projects = [
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/VikelaWeb%20Header.png?alt=media&token=9113e13a-4922-4f1d-9e2e-63ef76b110c6",
 		imageAltText: 'ARL',
 		title: 'VIKELA TECH \nWEBSITE\n',
-		storyDecription: 'The Vikela website is where users can build there own unique safe, enquire about Vikela products and access the Vikela Tech portal',
+		storyDecription: 'The Vikela website is where users can build their own unique safe, enquire about Vikela products and access the Vikela Tech portal',
 		body: [
 			{
 				title: 'My role on the project:',
@@ -208,7 +205,6 @@ export const projects = [
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		designCompsImages: [VikelaWebDesignComp1, VikelaWebDesignComp2, VikelaWebDesignComp3, VikelaWebDesignComp4],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'I set out to complete a simple yet clean UI design for Vikela Tech. This website needed to use the best UX practices to ensure a simple yet effective user flow.',
 		whatIveLearned: ['The clean design allows easy navigation for users and allows for less strain on the human eye', 'Working at a faster pace due to the tight deadline of this project']
 	},
@@ -239,7 +235,6 @@ export const projects = [
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Zeplin', 'Adobe Creative Cloud'],
 		designCompsImages: [VikelaDesignComp1, VikelaDesignComp2, VikelaDesignComp3],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
 		whatIveAccomplished: 'My goal for this project was to design something sleek, with a dark theme, that allowed for easy adding of content and some gamification elements - something users can easily navigate through to complete desired tasks.',
 		whatIveLearned: ['What goes into dark UI design and what the pros and cons are', 'To work against the clock in order to produce quality and achieve my daily goals']
 	},
