@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ARL/static/css/main.407468d1.chunk.css",
-    "main.js": "/ARL/static/js/main.696fe02f.chunk.js",
-    "main.js.map": "/ARL/static/js/main.696fe02f.chunk.js.map",
+    "main.js": "/ARL/static/js/main.4f1219ac.chunk.js",
+    "main.js.map": "/ARL/static/js/main.4f1219ac.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.2032db55.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.2032db55.js.map",
     "static/js/2.337c98ad.chunk.js": "/ARL/static/js/2.337c98ad.chunk.js",
@@ -47,6 +47,7 @@
     "static/media/arl-profile-pic.0e3089bb.png": "/ARL/static/media/arl-profile-pic.0e3089bb.png",
     "static/media/arrow_back.b76ee961.svg": "/ARL/static/media/arrow_back.b76ee961.svg",
     "static/media/capitec.59a2e802.svg": "/ARL/static/media/capitec.59a2e802.svg",
+    "static/media/coat-of-arms.f4c88b13.svg": "/ARL/static/media/coat-of-arms.f4c88b13.svg",
     "static/media/contact-image.4c659263.svg": "/ARL/static/media/contact-image.4c659263.svg",
     "static/media/huawei.1fa6a286.svg": "/ARL/static/media/huawei.1fa6a286.svg",
     "static/media/mobile-close-dropdown.ccf65c64.svg": "/ARL/static/media/mobile-close-dropdown.ccf65c64.svg",
@@ -60,6 +61,6 @@
     "static/js/runtime-main.2032db55.js",
     "static/js/2.337c98ad.chunk.js",
     "static/css/main.407468d1.chunk.css",
-    "static/js/main.696fe02f.chunk.js"
+    "static/js/main.4f1219ac.chunk.js"
   ]
 }
