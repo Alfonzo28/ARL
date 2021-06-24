@@ -108,7 +108,7 @@ class Project extends Component {
 					</div>
 
 					<div className="the-story-container">
-						<div className="the-story-title">{'Tool\'s used'}</div>
+						<div className="the-story-title">{'Tool\s used'}</div>
 						
 						<div className="the-story-decription">
 							<ul>
