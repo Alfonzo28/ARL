@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './UxUiProjects.scss';
-import { projects } from './projects';
+import { caseStudy } from './projects';
 import Ellipse from '../../assets/Ellipse.svg';
 import Dots from '../../assets/Dots.svg';
 import Header from '../../components/Header/Header';
@@ -99,7 +99,7 @@ class UxUiProjects extends Component {
 			<div className="App">			
 				<Header/>
 				<div className="ux-ui-projects-body">						
-					{this.generateProjects(projects)}
+					{this.generateProjects(caseStudy)}
 				</div>
 				<div>
 					{this.renderDots()}

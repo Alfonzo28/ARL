@@ -198,7 +198,7 @@ export const projects = [
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The ProFind mobile application is aimed at SMME businesses in South Africa and job applicants alike. It is a mobile application that speeds up the scanning, shortlist and hiring process.'
+				description: 'Creating a website where users can read up on smart safes, how Vikela Tech can assist businesses, and the differences between the various smart safes and their features. The website includes a section where anyone visiting the site can build and order their custom safe. '
 			}
 		],
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
@@ -211,3 +211,5 @@ export const projects = [
 	
 
 ];
+
+export const caseStudy = projects?.map( (project) => {return {image: project.image, title: project.title}});
