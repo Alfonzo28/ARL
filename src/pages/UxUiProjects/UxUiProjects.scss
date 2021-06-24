@@ -16,7 +16,8 @@
     padding: 8% 8%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 1.5rem 1.5rem
+    gap: 4.5rem 1.5rem;
+    padding-bottom: 0px;
 }
 
 @media only screen and (max-width: 1166px) and (min-width: 808px) {

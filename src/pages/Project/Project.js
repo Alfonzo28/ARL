@@ -157,22 +157,38 @@ class Project extends Component {
 						<div className="the-story-title">{'Design Comps'}</div>
 						<div className="the-story-decription">{'The final design comps after a few iterations and testing.'}</div>
 						
+						<div className="the-story-decription"> <b> {'Some features of the system include:'} </b> </div>
+						{ projectsContent?.features && 
+						<div className="the-story-decription">
+							<ul>
+								{this.whoIsItForBody(projectsContent?.features)}
+							
+							</ul>  
+						</div>
+						}
+
 						<div className="design-comps-images">
 							{this.generateDesignCompsImages(projectsContent?.designCompsImages)}
 						</div>
 					</div>
 
 					<div className="the-story-container">
+					{ projectsContent?.challenges && 
 						<div className="the-story-title">{'Challenges of the project'}</div>
+					}
+					{ projectsContent?.challenges &&
 						<div className="the-story-decription">{projectsContent?.challenges}</div>
-
-						<div className="body-section-label">{'What I\'ve learned'}</div>
+						}
+						{ projectsContent?.whatIveLearned && 
+						<div className="body-section-label">{'What I\'ve learned'}</div> }
+						{ projectsContent?.whatIveLearned && 
 						<div className="the-story-decription">
 							<ul>
 								{this.whoIsItForBody(projectsContent?.whatIveLearned)}
+							
 							</ul>  
 						</div>
-
+						}
 						<div className="body-section-label">{'What I\'ve accomplished'}</div>
 						<div className="the-story-decription">{projectsContent?.whatIveAccomplished}</div>
 						<div className="scroll-up-button" onClick={() => window.scrollTo({
