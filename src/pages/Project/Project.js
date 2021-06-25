@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Project.scss';
-import ARLProfilePic from '../../assets/arl-profile-pic.png';
+import TripToLibrary from '../../assets/Library Visit.png';
+import Sketch from '../../assets/Sketch.png';
+import Persona from '../../assets/Persona.png';
 import ArrowUp from '../../assets/arrow_back.svg';
 import Header from '../../components/Header/Header';
 import { projects } from '../UxUiProjects/projects';
@@ -117,6 +119,81 @@ class Project extends Component {
 						</div>
 					</div>
 
+					{projectsContent?.title === 'WESTBURY LIBRARY' && <div className="the-story-container">
+						<div className="body-section-label">
+							My trip to the Johannesburg Library.
+						</div>
+						<div className="body-section-content">
+							To fully understand my users' I visited the Westbury library to identify their habits and key frustrations. My trip to the library 
+							gave me some insights and assisted in ways to potentially tackle the problem. I needed to create a product that bridged the 
+							gap between distance learning and obtaining data - the needs of the users' were met, in this case, being the library staff and 
+							high school students.
+						</div>
+						<img className="westbury-images" src={TripToLibrary} alt="journey-map"/>
+						
+						<div className="the-story-title">{'Research design and Methodology'}</div>
+
+						<div className="the-story-decription">
+							I used the qualitative method to build a theory while using quantitative methods to support the theory. 
+							So by asking in-depth, qualitative questions such as:
+						</div>
+						
+						<div className="the-story-decription">
+							<ul>
+								{this.whoIsItForBody(['What are your experiences of the Westbury library, and how can a mobile application improve your experience as a user?'])}
+							</ul>  
+						</div>
+
+						<div className="the-story-decription">
+							Lastly, I surveyed the users with short focused quantitative questions-such as:
+						</div>
+
+						<div className="the-story-decription">
+							<ul>
+								{this.whoIsItForBody(['True or false, by having a points system where users\' can gain points for every book read or checked out, they can then their redeem points to access the internet through their mobile app.'])}
+							</ul>  
+						</div>
+
+						<div className="the-story-decription">
+							By doing this, I statistically supported the qualitative insight and also continued to do gain more
+							insights and information into what the users' needs were.
+						</div>
+						
+						<div className="the-story-title">{'The process'}</div>
+
+						<div className="the-story-decription">
+							Once my questions were ready and interviews conducted, I compiled my finds into a Microsoft Excel
+							document, which I categorized using affinity diagrams. The affinity diagrams showed my wicked
+							problems based on my observations and the interviews conducted.
+						</div>
+
+						<div className="the-story-decription">
+							I made use of the Firma model to understand the Westbury community as a whole, what their
+							frustrations were, what contributed to those frustrations, and how a mobile application could assist 
+							in the educational growth of the community.
+						</div>
+						
+						<div className="the-story-decription">
+							When it came time to empathize with my users, I made use of Physiological drivers to fully understand
+							how my users felt, what their wants and needs were, and how I can successfully design with them 
+							in mind.
+						</div>
+
+						<div className="the-story-title">{'Persona'}</div>
+
+						<img className="westbury-images" src={Persona} alt="journey-map"/>
+
+						<div className="the-story-title">{'Sketches'}</div>
+
+						<div className="the-story-decription">
+							Certain features from my sketching sessions remained in the final design -Due to positive feedback from user testing session
+							and the different iteration phases.
+						</div>
+
+						<img className="westbury-images" src={Sketch} alt="journey-map"/>
+					</div>
+					}
+
 					{ projectsContent?.journeyMap && 
 						<div className="the-story-container"> 
 						<div className="the-story-title">{'Journey Map'}</div>
@@ -150,7 +227,23 @@ class Project extends Component {
 							<div className="the-story-decription">{'I made use of High-fidelity wireframes for testing purposes.'}</div>
 							<img className="wireframes" src={projectsContent?.wireframes} alt="wireframes"/>
 						</div>
-	}
+						}
+
+						{projectsContent?.title === 'WESTBURY LIBRARY' && 
+						<div className="the-story-container">
+							<div className="the-story-title">{'Branding'}</div>
+							<div className="the-story-decription">{'The branding for the mobile app consisted of the Westbury school crest with a reimagined and redesigned look.'}</div>
+							<img className="westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+						</div>
+						}
+
+						{projectsContent?.title === 'WESTBURY LIBRARY' && 
+						<div className="the-story-container">
+							<div className="the-story-title">{'Colour Palette'}</div>
+							<div className="the-story-decription">{'The primary colour scheme consisted of warm and cool colours. These colours were found within the signage for the Westbury library.'}</div>
+							<img className="westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+						</div>
+						}
 					</div>
 
 					<div className="the-story-container">
