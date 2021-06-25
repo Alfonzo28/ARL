@@ -207,13 +207,13 @@ class Project extends Component {
 					</div>
 					}
 
-					{ projectsContent?.title === 'WESTBURY LIBRARY' && 
+					{projectsContent?.title === 'WESTBURY LIBRARY' && 
 						<div className="the-story-container">
 							<div className="the-story-title">{'Wireframes'}</div>
 							<div className="the-story-decription">{'I made use of High-fidelity wireframes for testing purposes.'}</div>
-							<img className="Westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
-						</div> }
-
+							<img className="westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+						</div>
+					}
 
 					<div className="personas-wireframes">
 					{ projectsContent?.personaImages && 
