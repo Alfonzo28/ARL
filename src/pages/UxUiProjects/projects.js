@@ -23,8 +23,8 @@ import Absadesign2 from '../../assets/Absa 2.png';
 import VikelaDesignComp1 from '../../assets/Vikela Portal Header.png';
 import VikelaDesignComp2 from '../../assets/Vikela Portal 1.png';
 import VikelaDesignComp3 from '../../assets/Vikela Portal 2.png';
-
-
+import WestburyJourneyMap from '../../assets/Journey map.png';
+import WestburyWireframe from '../../assets/Westbury Wireframe.png';
 
 
 export const projects = [
@@ -114,8 +114,8 @@ export const projects = [
 				description: 'To fully understand my users\' I visited the Westbury library to identify their habits and key frustrations. My trip to the library gave me some insights and assisted in ways to potentially tackle the problem. I needed to create a product that bridged the gap between distance learning and obtaining data - the needs of the users\' were met, in this case, being the library staff and high school students.'
 			}
 		],
-		journeyMap: ARLProfilePic,
-		wireframes: ARLProfilePic,
+		journeyMap: WestburyJourneyMap,
+		wireframes: WestburyWireframe,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',

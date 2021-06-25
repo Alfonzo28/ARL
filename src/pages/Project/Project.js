@@ -3,12 +3,17 @@ import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Project.scss';
 import TripToLibrary from '../../assets/Library Visit.png';
-import Sketch from '../../assets/Sketch.png';
+import Sketch from '../../assets/Sketches.png';
 import Persona from '../../assets/Persona.png';
 import ArrowUp from '../../assets/arrow_back.svg';
 import Header from '../../components/Header/Header';
 import { projects } from '../UxUiProjects/projects';
 import { PROJECT_URL } from '../../constants/urlConstants';
+import WestburyBranding from '../../assets/Branding.png';
+import WestburyColourPalette from '../../assets/Colour palette.png';
+
+
+
 
 class Project extends Component {		
 	generateProjects(projectCards) {
@@ -121,7 +126,7 @@ class Project extends Component {
 
 					{projectsContent?.title === 'WESTBURY LIBRARY' && <div className="the-story-container">
 						<div className="body-section-label">
-							My trip to the Johannesburg Library.
+						The Johannesburg City Library
 						</div>
 						<div className="body-section-content">
 							To fully understand my users' I visited the Westbury library to identify their habits and key frustrations. My trip to the library 
@@ -202,6 +207,14 @@ class Project extends Component {
 					</div>
 					}
 
+					{ projectsContent?.title === 'WESTBURY LIBRARY' && 
+						<div className="the-story-container">
+							<div className="the-story-title">{'Wireframes'}</div>
+							<div className="the-story-decription">{'I made use of High-fidelity wireframes for testing purposes.'}</div>
+							<img className="Westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+						</div> }
+
+
 					<div className="personas-wireframes">
 					{ projectsContent?.personaImages && 
 						<div className="the-story-container">
@@ -221,7 +234,7 @@ class Project extends Component {
 						
 						}
 
-						{ projectsContent?.wireframes && 
+						{( projectsContent?.wireframes && projectsContent?.title !== 'WESTBURY LIBRARY' ) &&
 						<div className="the-story-container">
 							<div className="the-story-title">{'Wireframes'}</div>
 							<div className="the-story-decription">{'I made use of High-fidelity wireframes for testing purposes.'}</div>
@@ -233,7 +246,7 @@ class Project extends Component {
 						<div className="the-story-container">
 							<div className="the-story-title">{'Branding'}</div>
 							<div className="the-story-decription">{'The branding for the mobile app consisted of the Westbury school crest with a reimagined and redesigned look.'}</div>
-							<img className="westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+							<img className="westbury-images" src={WestburyBranding} alt="wireframes"/>
 						</div>
 						}
 
@@ -241,7 +254,7 @@ class Project extends Component {
 						<div className="the-story-container">
 							<div className="the-story-title">{'Colour Palette'}</div>
 							<div className="the-story-decription">{'The primary colour scheme consisted of warm and cool colours. These colours were found within the signage for the Westbury library.'}</div>
-							<img className="westbury-images" src={projectsContent?.wireframes} alt="wireframes"/>
+							<img className="westbury-images" src={WestburyColourPalette} alt="wireframes"/>
 						</div>
 						}
 					</div>
