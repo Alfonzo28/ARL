@@ -96,7 +96,7 @@ class UxUiProjects extends Component {
 		const brandsWorkedFor = [Huawei, Absa, Capitec, SabcNews, Sabc, Uj, 'https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/coat-of-arms.svg?alt=media&token=bbbe5a92-30d2-45a9-a705-1e0110bb528a'];
 
 		return (
-			<div className="App">			
+			<div className="background-static">			
 				<Header/>
 				<div className="ux-ui-projects-body">						
 					{this.generateProjects(caseStudy)}

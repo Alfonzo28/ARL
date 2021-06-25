@@ -26,6 +26,17 @@ html, body, #root, .App {
   background-size: cover;
 }
 
+.background-static {
+  flex-direction: column;
+  background-color: $secondary-color;
+  background: url("./assets/BG_2.png") repeat center center;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .body {
   display: grid;
   flex: 1;
