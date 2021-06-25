@@ -118,8 +118,8 @@ export const projects = [
 		wireframes: WestburyWireframe,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		challenges: 'When it came to my observations and the need to document them, I had issues with library staff and the rules I had to abide by, stating that one cannot take pictures of the library or its members.',
-		whatIveAccomplished: 'My aim was to see this project through from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
+		challenges: 'When it came to my observations and the need to document them, I had issues with library staff and the rules I had to abide by, stating that one cannot take pictures of the library or stuff.',
+		whatIveAccomplished: 'The need to create a product that bridged the gap between distance learning and obtaining data helped an underdeveloped community achieve one of its goals of making the Westbury Library relevant.',
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{

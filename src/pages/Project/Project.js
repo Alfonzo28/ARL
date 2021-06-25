@@ -149,13 +149,13 @@ class Project extends Component {
 
 						<div className="the-story-decription">
 							<ul>
-								{this.whoIsItForBody(['True or false, by having a points system where users\' can gain points for every book read or checked out, they can then their redeem points to access the internet through their mobile app.'])}
+								{this.whoIsItForBody(['True or false, by having a points system where users\' can gain points for every book read or checked out, they can then redeem points to access the internet through their mobile app.'])}
 							</ul>  
 						</div>
 
 						<div className="the-story-decription">
-							By doing this, I statistically supported the qualitative insight and also continued to do gain more
-							insights and information into what the users' needs were.
+						By doing this, I statistically supported the qualitative insights and gained more information on what 
+						the users' wants, needs, and frustrations were.
 						</div>
 						
 						<div className="the-story-title">{'The process'}</div>
@@ -173,9 +173,8 @@ class Project extends Component {
 						</div>
 						
 						<div className="the-story-decription">
-							When it came time to empathize with my users, I made use of Physiological drivers to fully understand
-							how my users felt, what their wants and needs were, and how I can successfully design with them 
-							in mind.
+						When the time came to empathize with my users. I made use of Physiological drivers to fully understand how my users felt, 
+						what their wants and needs were, and how I can successfully design with them in mind.
 						</div>
 
 						<div className="the-story-title">{'Persona'}</div>
