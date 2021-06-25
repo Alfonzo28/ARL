@@ -128,12 +128,6 @@ class Project extends Component {
 						<div className="body-section-label">
 						The Johannesburg City Library
 						</div>
-						<div className="body-section-content">
-							To fully understand my users' I visited the Westbury library to identify their habits and key frustrations. My trip to the library 
-							gave me some insights and assisted in ways to potentially tackle the problem. I needed to create a product that bridged the 
-							gap between distance learning and obtaining data - the needs of the users' were met, in this case, being the library staff and 
-							high school students.
-						</div>
 						<img className="westbury-images" src={TripToLibrary} alt="journey-map"/>
 						
 						<div className="the-story-title">{'Research design and Methodology'}</div>
