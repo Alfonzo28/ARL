@@ -59,7 +59,7 @@ export default class Testimonies extends Component {
 	}
 
 	render() {
-		const header = 'Testimonies';
+		const header = 'TESTIMONIES';
 		const testimonyCards = [
 			{
 				pretitle: 'James Riviers',

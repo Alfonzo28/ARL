@@ -4,7 +4,7 @@ import Platforms from '../../assets/platforms-gold-icons.svg';
 
 export default class Bio extends Component {
 	render() {
-		const preHeader = 'Welcome to the world of';
+		const preHeader = 'Hi, my name is';
 		const firstName = 'Alfonzo';
 		const secondName = 'Louw';
 		const postHeader = 'UX/UI & Multimedia designer';
