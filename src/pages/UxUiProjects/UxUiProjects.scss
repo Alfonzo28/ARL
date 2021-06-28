@@ -17,7 +17,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 4.5rem 1.5rem;
-    padding-bottom: 0px;
+    margin-top: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #F3F3F3;
 }
 
 @media only screen and (max-width: 1166px) and (min-width: 808px) {
@@ -54,31 +57,31 @@
 }
 
 .project-card-0 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Pro-Find header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Pro-Find header.png');
 }
 
 .project-card-1 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Capitec Header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Capitec Header.png');
 }
 
 .project-card-2 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Westbury 1.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Westbury 1.png');
 }
 
 .project-card-3 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Absa Header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Absa Header.png');
 }
 
 .project-card-4 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Huawei Header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Huawei Header.png');
 }
 
 .project-card-5 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/VikelaWeb Header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/VikelaWeb Header.png');
 }
 
 .project-card-6 {
-    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.52) 100%), url('../../assets/Vikela Portal Header.png');
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('../../assets/Vikela Portal Header.png');
 }
 
 @media only screen and (max-width: 440px) {
