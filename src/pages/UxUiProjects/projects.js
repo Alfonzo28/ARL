@@ -48,7 +48,7 @@ export const projects = [
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'Designing a mobile application where SMME owners can be notified when candidates meet job requirements, shortlist potential candidates, and forward applicant CVs. Applicants can apply to multiple job posts without having to create user profiles. Users\' can quickly and easily upload their CVs, be notified when their CV has been received, and check the status of their application.'
+				description: 'Designing a mobile application where SMME owners can be notified when candidates meet job requirements, shortlist potential candidates, and forward applicant CVs. \n \n Applicants can apply to multiple job posts without having to create user profiles. Users\' can quickly and easily upload their CVs, be notified when their CV has been received, and check the status of their application. \n \n'
 			}
 		],
 		journeyMap: JourneyMap,
@@ -58,19 +58,19 @@ export const projects = [
 		wireframes: Wireframes,
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
-		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users this was due to the COVID-19 pandemic.',
-		whatIveAccomplished: 'My aim was to see this project develop from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iterations.',
+		challenges: 'The main problem that I\'ve encountered during this project was finding and interacting with users. This was due to the COVID-19 pandemic.',
+		whatIveAccomplished: 'My aim was to see this project develop from start to finish, to be able to hand the final designs over to the development team after months of research, testing and iteration.',
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']
 	},
 	{
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Capitec%20Header.png?alt=media&token=13a3e530-9f9c-4bbc-b336-f687dcf558d3",
 		imageAltText: 'ARL',
 		title: 'CAPITEC',
-		storyDecription: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers to ensure their needs have been met.',
+		storyDecription: 'WhatsApp for Relationship Managers is a PWA (Progressive Web Application) that allows quick and easy communication between Relationship Managers and their bankers. Relationship managers can close, refer, or escalate requests made by bankers.',
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'I served as the designer on the Capitec project.'
+				description: 'I served as the designer on the Capitec W.A.R.M project.'
 			},
 			{
 				title: 'Target audience:',
@@ -78,12 +78,12 @@ export const projects = [
 			},
 			{
 				title: 'The Problem:',
-				description: 'Currently, Transactional bankers and Relationship managers communicate through social platforms, for example, Whatsapp. However, Relationship managers make use of their personal WhatsApp account when attending to bankers\' requests or are required to carry a bank-allocated cell phone with them. This becomes difficult because Capitec bank has no overview of these conversations which contributes to bad customer service.'
+				description: 'Currently, Transactional bankers and Relationship managers communicate through social platforms, for example, Whatsapp. However, Relationship managers make use of their personal WhatsApp account when attending to bankers\' requests or are required to carry a bank-allocated cell phone with them. This becomes difficult because Capitec bank has no overview of these conversations which contribute to bad customer service.'
 			},
 			{
 				title: 'Solving the problem:',
 				description: 'Creating a WhatsApp portal where Relationship managers can communicate with their bankers, manage their client portfolios, and do follow-ups to ensure clients\' expectations have been met. \nThis allows for:\n',
-				bodylist: ['Customers want to be helped in the most convenient and quickest possible way', 'Relationship managers and Transactional bankers want to serve their customers in a timely and convenient manner','Relationship managers have an overview of client conversations. When a query is not solved in a timeous manner, it can be escalated - thus meeting the clients\'expectations'],
+				bodylist: ['Customers being helped in the most convenient and quickest possible way', 'Relationship managers and Transactional bankers want to serve their customers in a timely and convenient manner','Relationship managers have an overview of client conversations. When a query is not solved in a timeous manner, it can be escalated - thus meeting the clients\'expectations'],
 			}
 		],
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
@@ -107,7 +107,7 @@ export const projects = [
 			},
 			{
 				title: 'The Problem:',
-				description: 'The Westbury library had become irrelevant for high school students within the community. Its contributions were outdated books, broken equipment, and Wi-Fi that\'s not always accessible. Amongst other problems, the physical space was limited.'
+				description: 'The Westbury library had become irrelevant for high school students within the community. The main contributing factors were outdated books, broken equipment, and Wi-Fi that\'s not always accessible. Amongst other problems, the physical library space was limited.'
 			},
 			{
 				title: 'Solving the problem:',
@@ -119,7 +119,7 @@ export const projects = [
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		challenges: 'When it came to my observations and the need to document them, I had issues with library staff and the rules I had to abide by, stating that one cannot take pictures of the library or stuff.',
-		whatIveAccomplished: 'The need to create a product that bridged the gap between distance learning and obtaining data helped an underdeveloped community achieve one of its goals of making the Westbury Library relevant.',
+		whatIveAccomplished: 'The need to create a product that bridged the gap between distance learning and obtaining data. This helped an underdeveloped community achieve one of its goals of making the Westbury Library relevant.',
 		whatIveLearned: ['The importance of user testing and iteration', 'What goes into starting a new project from the ground up', 'Creating detailed user journeys maps and user personas']		
 	},
 	{
@@ -142,14 +142,14 @@ export const projects = [
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'Creating a desktop application where tax operators can perform FATCA/CRS identification, remediation, and classification. This process used to be manual, but the FATCA reporting tool has changed this by using basic functionality.'
+				description: 'Creating a desktop application where tax operators can perform FATCA/CRS identification, remediation, and classification automatically. This process used to be manual, but the FATCA reporting tool has changed this by using basic functionality.'
 			}
 		],
 
 		whoIsItFor: ['Sketch', 'Adobe Creative Cloud', 'InVision'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
 		designCompsImages: [Absadesign1, Absadesign2],
-		whatIveLearned: ['Added features that improved how tax ops team carry out FATCA / CRS operations', 'Developed the interfaces using the existing components in the Absa framework'],
+		whatIveLearned: ['Added features that improved how the tax op team carry out FATCA / CRS operations', 'Developed the interfaces using the existing components in the Absa framework'],
 	},
 	{
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Huawei%20Header.png?alt=media&token=7b36a0d2-7d05-4972-94c0-86bffe15a600",
@@ -184,11 +184,11 @@ export const projects = [
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/VikelaWeb%20Header.png?alt=media&token=9113e13a-4922-4f1d-9e2e-63ef76b110c6",
 		imageAltText: 'ARL',
 		title: 'VIKELA TECH \nWEBSITE\n',
-		storyDecription: 'The Vikela website is where users can build their own unique safe, enquire about Vikela products and access the Vikela Tech portal',
+		storyDecription: 'The Vikela website is where users can build their own unique safe, enquire about Vikela products and access the Vikela Tech portal.',
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'The brief was to design the Vikela website. It would link existing users to the Vikela Tech portal, while new users can custom-build and order their smart safe. I was also tasked with creating an intro animation once the site was launched.'
+				description: 'The brief was to design the Vikela Tech website. It would link existing users to the Vikela Tech portal, while new users can custom-build and order their smart safe. I was also tasked with creating an intro animation once the site was launched.'
 			},
 			{
 				title: 'Target audience:',
@@ -222,7 +222,7 @@ export const projects = [
 			},
 			{
 				title: 'Target audience:',
-				description: 'This portal was created to assist those who\'ve purchased smart safe from Vikela Tech.'
+				description: 'This portal was created to assist those who\'ve purchased a smart safe from Vikela Tech.'
 			},
 			{
 				title: 'The Problem:',
@@ -230,7 +230,7 @@ export const projects = [
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'The development team briefed us on what features the smart safe had and how it differed from a conventional safe. This allowed us to compile enough information on how the safe works, what the needs of the users are and what goals they\'re trying to achieve. '
+				description: 'The development team briefed us on what features the smart safe had and how it differed from a conventional safe. This allowed us to compile enough information on how the safe works, what the needs of the users were and what goals they\'re trying to achieve. '
 			}
 		],
 		whoIsItFor: ['Sketch', 'Adobe Photoshop', 'Adobe Illustrator'],
