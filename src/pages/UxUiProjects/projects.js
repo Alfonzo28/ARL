@@ -208,8 +208,7 @@ export const projects = [
 		designCompsImages: [VikelaWebDesignComp1, VikelaWebDesignComp2, VikelaWebDesignComp3, VikelaWebDesignComp4],
 		whatIveAccomplished: 'I set out to complete a simple yet clean UI design for Vikela Tech. This website needed to use the best UX practices to ensure a simple yet effective user flow.',
 		whatIveLearned: ['The clean design allows easy navigation for users and allows for less strain on the human eye', 'Working at a faster pace due to the tight deadline of this project']
-	},
-	
+	},	
 	{
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Vikela%20Portal%20Header.png?alt=media&token=45ecf930-f4ee-4400-b322-7d6b0058efd3",
 		imageAltText: 'ARL',
