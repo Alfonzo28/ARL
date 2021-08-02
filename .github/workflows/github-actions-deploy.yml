@@ -21,8 +21,8 @@ jobs:
 
       - name: Credentials
         run: |
-          git config --global user.email "${{ github.email }}"
-          git config --global user.name "${{ github.name }}"
+          git config --global user.email "alfonzolouw9@gmail.com"
+          git config --global user.name "Alfonzo28"
 
       - name: Install
         run: |
