@@ -19,11 +19,6 @@ jobs:
           target_url: https://Alfonzo28.github.io/ARL
           environment: production
 
-      - name: Credentials
-        run: |
-          git config --global user.email "alfonzolouw9@gmail.com"
-          git config --global user.name "Alfonzo28"
-
       - name: Install
         run: |
           npm install
@@ -35,10 +30,6 @@ jobs:
       - name: Build
         run: |
           npm run build
-
-      - name: Deploy my app
-        run: |
-          npm run deploy
 
       - name: Update deployment status (success)
         if: success()
