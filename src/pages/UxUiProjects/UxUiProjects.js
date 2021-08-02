@@ -13,7 +13,6 @@ import SabcNews from '../../assets/sabc-news.svg';
 import Capitec from '../../assets/capitec.svg';
 import Absa from '../../assets/absa.svg';
 import Huawei from '../../assets/huawei.svg';
-import CoatOfArms from '../../assets/coat-of-arms.svg';
 import { PROJECT_URL } from '../../constants/urlConstants';
 
 class UxUiProjects extends Component {	
