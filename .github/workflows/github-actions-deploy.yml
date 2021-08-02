@@ -18,6 +18,12 @@ jobs:
           token: "${{ github.token }}"
           target_url: https://Alfonzo28.github.io/ARL
           environment: production
+
+      - name: Credentials
+        run: |
+          git config --global user.email "${{ github.email }}"
+          git config --global user.name "${{ github.name }}"
+
       - name: Install
         run: |
           npm install
