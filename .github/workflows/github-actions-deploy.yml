@@ -21,7 +21,7 @@ jobs:
 
       - name: Deploy my app
         run: |
-          # add your deployment code here
+          npm run deploy
 
       - name: Update deployment status (success)
         if: success()
