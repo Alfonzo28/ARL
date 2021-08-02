@@ -18,14 +18,16 @@ jobs:
           token: "${{ github.token }}"
           target_url: https://Alfonzo28.github.io/ARL
           environment: production
+      - name: Install
+        run: |
+          npm install
 
       - name: Run
         run: |
           npm start
 
-      - name: Install and Build
+      - name: Build
         run: |
-          npm install
           npm run build
 
       - name: Deploy my app
