@@ -19,6 +19,10 @@ jobs:
           target_url: https://Alfonzo28.github.io/ARL
           environment: production
 
+      - name: Run
+        run: |
+          npm start
+
       - name: Install and Build
         run: |
           npm install
