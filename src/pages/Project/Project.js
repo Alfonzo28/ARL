@@ -12,9 +12,6 @@ import { PROJECT_URL } from '../../constants/urlConstants';
 import WestburyBranding from '../../assets/Branding.png';
 import WestburyColourPalette from '../../assets/Colour palette.png';
 
-
-
-
 class Project extends Component {		
 	generateProjects(projectCards) {
 		if (projectCards?.length > 0) {
