@@ -31,6 +31,13 @@ jobs:
         run: |
           npm run build
 
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: 'build'
+
       - name: Update deployment status (success)
         if: success()
         uses: chrnorm/deployment-status@releases/v1
