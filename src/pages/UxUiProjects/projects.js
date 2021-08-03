@@ -7,7 +7,6 @@ import DesignComp2 from '../../assets/Pro-Find 6.png';
 import CapitecDesignComp1 from '../../assets/Capitec 1.png';
 import CapitecDesignComp2 from '../../assets/Capitec 2.png';
 import AbsaContainer from '../../assets/Absa Header.png';
-import HuaweiContainer from '../../assets/Huawei Header.png';
 import HuaweiDesignComp1 from '../../assets/Huawei 1.png';
 import HuaweiDesignComp2 from '../../assets/Huawei 2.png';
 import VikelaWebHeader from '../../assets/VikelaWeb Header.png';
