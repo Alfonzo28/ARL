@@ -7,7 +7,7 @@ export default class Bio extends Component {
 		const preHeader = 'Hi, my name is';
 		const firstName = 'Alfonzo Louw';
 	
-		const postHeader = 'UX/UI & Multimedia designer';
+		const postHeader = 'UX/UI & Multimedia Designer';
 		const bioParagraph1 = `
 		Education: University of Johannesburg - Boston City Campus and Business College
         `;
