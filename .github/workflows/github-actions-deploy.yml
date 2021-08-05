@@ -1,6 +1,9 @@
 name: Deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   deploy:
@@ -22,10 +25,6 @@ jobs:
       - name: Install
         run: |
           npm install
-
-      - name: Run
-        run: |
-          npm start & npx wait-on http://localhost:3000
 
       - name: Build
         run: |
