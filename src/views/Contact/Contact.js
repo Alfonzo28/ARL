@@ -125,7 +125,7 @@ export default class Contact extends Component {
 						className="contact-button"
 						onClick={()=>this.sendContactInfo()}
 					>
-						{CONTACT_ME}
+						{"Send Message"}
 					</button>
 				</div>				
 			</div>
