@@ -75,7 +75,7 @@ class UxUiProjects extends Component {
 		const brandsTitle = 'Some brands I had the pleasure of working for';		
 		const countCards = [
 			{
-				header: '50',
+				header: '50+',
 				body: 'Projects'
 			},
 			{
@@ -83,11 +83,11 @@ class UxUiProjects extends Component {
 				body: 'Happy Clients'
 			},
 			{
-				header: '60',
+				header: '60+',
 				body: 'Animations'
 			},
 			{
-				header: '100',
+				header: '100+',
 				body: 'Illustrations'
 			}
 		];
