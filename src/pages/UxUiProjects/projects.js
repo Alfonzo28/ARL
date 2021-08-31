@@ -235,6 +235,35 @@ export const projects = [
 		whatIveLearned: ['What goes into dark UI design and what the pros and cons are', 'To work against the clock in order to produce quality and achieve my daily goals']
 	},
 
+	{
+		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%20header.png?alt=media&token=d1b97d97-8f1a-40c6-970e-a64f7d1a20c4",
+		imageAltText: 'ARL',
+		title: 'Quick Score Pro',
+		storyDecription: 'QSP (Quick Score Pro) is a mobile application that allows users to capture, manage, or view match and shooting range scores (depending on their user roles).',
+		body: [
+			{
+				title: 'My role on the project:',
+				description: 'I served as the designer for QSP, responsible for creating the user journey, wireframes and the final UI designs.'
+			},
+			{
+				title: 'Target audience:',
+				description: 'Shooting range club owners, referees and participants.'
+			},
+			{
+				title: 'The Problem:',
+				description: 'Club owners use a manual system to manage their clubs. These include creating matches, adding referees, and allowing participants to sign up and make the necessary payment. Referees also have some pain points when it comes to capturing scores for these matches. They use a paper system that can be altered, lost, or damaged.'
+			},
+			{
+				title: 'Solving the problem:',
+				description: 'Designing a digital tool that allows club owners to manage and set up matches, hire referees and administer participants, all from their mobile devices.',
+			
+			}
+		],
+		whoIsItFor: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator'],
+		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'InVision', 'Abstract'],
+		designCompsImages: ["https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%201%20(1).png?alt=media&token=d1786315-6d4d-4c3a-976e-79c4d49f8942", "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%202%20(1).jpg?alt=media&token=d27e4a96-6099-4ba4-bab5-a2fd6ed74c50"],
+		whatIveLearned: ['Developed the interfaces using the existing components in the Capitec framework', 'Redesigned the UX and UI of the existing WhatsApp application and added additional features which improves communication between Relationship managers and their clients', 'Improved on how referrals and escalations take place between Relationship managers', 'Added features that sped up the request time']		
+},
 ];
 
 export const caseStudy = projects?.map( (project) => {return {image: project.image, title: project.title}});
