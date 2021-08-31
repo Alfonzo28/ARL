@@ -262,7 +262,7 @@ export const projects = [
 		whoIsItFor: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator'],
 		whoIsItForImages: ['Sketch', 'Adobe Photoshop', 'InVision', 'Abstract'],
 		designCompsImages: ["https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%201%20(1).png?alt=media&token=d1786315-6d4d-4c3a-976e-79c4d49f8942", "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%202%20(1).jpg?alt=media&token=d27e4a96-6099-4ba4-bab5-a2fd6ed74c50"],
-		whatIveLearned: ['Developed the interfaces using the existing components in the Capitec framework', 'Redesigned the UX and UI of the existing WhatsApp application and added additional features which improves communication between Relationship managers and their clients', 'Improved on how referrals and escalations take place between Relationship managers', 'Added features that sped up the request time']		
+		whatIveLearned: ['What goes into designing for a shooting range', 'How match scores are calculated and compiled', 'The importance of user testing and iteration', 'Added features that sped up club management and member participation']		
 },
 ];
 
