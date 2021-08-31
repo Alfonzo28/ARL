@@ -49,12 +49,15 @@ class UxUiProjects extends Component {
 			<div className={"project-card " + "project-card-"+index} key={index}>		
 				<div className="project-card-content">
 					<div className="project-card-title">{projectCard?.title}</div>
-					<div className="project-card-button" onClick={() => this.props.history.push(PROJECT_URL + '/' + index)}>VIEW CASE STUDY</div>
+					<div className="project-card-button" onClick={() => {this.props.history.push(PROJECT_URL + '/' + index);window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			});		}}>VIEW CASE STUDY</div>
 				</div>
 			</div>
 		);
 	}
-
 	generateProjects(projectCards) {
 		if (projectCards?.length > 0) {
 			return projectCards.map((projectCard, index) => this.renderCards(projectCard, index, projectCards?.length));
