@@ -54,6 +54,7 @@
     border-radius: 5rem 0rem;
     justify-self: center;
     background-position: center;
+    background-size: 300%;
 }
 
 .project-card-0 {
@@ -83,6 +84,11 @@
 .project-card-6 {
     background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/Vikela%20Portal%20Header.png?alt=media&token=45ecf930-f4ee-4400-b322-7d6b0058efd3');
 }
+
+.project-card-7 {
+    background-image: linear-gradient(40deg, #000000 0%, rgba(0, 0, 0, 0.52) 50%), url('https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%201%20(1).png?alt=media&token=d1786315-6d4d-4c3a-976e-79c4d49f8942');
+}
+
 
 @media only screen and (max-width: 440px) {
     .project-card {
