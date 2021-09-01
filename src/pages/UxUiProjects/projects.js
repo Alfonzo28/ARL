@@ -239,23 +239,23 @@ export const projects = [
 		image: "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%20header.png?alt=media&token=d1b97d97-8f1a-40c6-970e-a64f7d1a20c4",
 		imageAltText: 'ARL',
 		title: 'Quick Score Pro',
-		storyDecription: 'QSP (Quick Score Pro) is a mobile application that allows users to capture, manage, or view match and shooting range scores (depending on their user roles).',
+		storyDecription: 'QSP (Quick Score Pro) is a mobile application that allows users to capture, manage, and view match and shooting range scores (depending on their user roles).',
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'I served as the designer for QSP, responsible for creating the user journey, wireframes and the final UI designs.'
+				description: 'I served as the designer for QSP responsible for creating the user journey, wireframes and the final UI designs.'
 			},
 			{
 				title: 'Target audience:',
-				description: 'Shooting range club owners, referees and participants.'
+				description: 'Shooting range club owners, match referees, and participants who have signed up to those events.'
 			},
 			{
 				title: 'The Problem:',
-				description: 'Club owners use a manual system to manage their clubs. These include creating matches, adding referees, and allowing participants to sign up and make the necessary payment. Referees also have some pain points when it comes to capturing scores for these matches. They use a paper system that can be altered, lost, or damaged.'
+				description: 'Club owners use a manual system to manage their clubs. These include creating matches, adding referees, and allowing participants to sign up and make the necessary payments. Referees also have some pain points when capturing match scores. They use a paper system that can be altered with, lost, or suffer damagee.'
 			},
 			{
 				title: 'Solving the problem:',
-				description: 'Designing a digital tool that allows club owners to manage and set up matches, hire referees and administer participants, all from their mobile devices.',
+				description: 'Designing a mobile application that would allow club owners to manage their club, create matches, hire referees and administer participants.',
 			
 			}
 		],
@@ -264,6 +264,7 @@ export const projects = [
 		designCompsImages: ["https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%201%20(1).png?alt=media&token=d1786315-6d4d-4c3a-976e-79c4d49f8942", "https://firebasestorage.googleapis.com/v0/b/arl-portfolio.appspot.com/o/QSP%202%20(1).jpg?alt=media&token=d27e4a96-6099-4ba4-bab5-a2fd6ed74c50"],
 		whatIveLearned: ['What goes into designing for a shooting range', 'How match scores are calculated and compiled', 'The importance of user testing and iteration', 'Added features that sped up club management and member participation']		
 },
+
 ];
 
 export const caseStudy = projects?.map( (project) => {return {image: project.image, title: project.title}});
