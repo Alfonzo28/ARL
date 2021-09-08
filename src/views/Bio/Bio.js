@@ -13,16 +13,12 @@ export default class Bio extends Component {
         `;
 
 		const bioParagraph2 = `
-		I am a qualified I.T. and Multimedia Designer 
+		I am a qualified I.T. and multimedia Designer 
 		with a demonstrated history of working 
-		in the broadcast media industry.
-		Skilled in Customer Service, Research, 
-		User Experience (UX), Interaction Design 
-		(IxD), and front-end development. 
-		Strong arts and design professional 
-		with a Bachelor's degree focused on
-		Multimedia design from
-		The University of Johannesburg.
+		in the broadcast and consulting industry. 
+		I am skilled in Customer Service, Research, 
+		User Experience (UX), Interaction Design (IxD), 
+		and front-end development.
         `;
 
 		return (
