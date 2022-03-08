@@ -32,7 +32,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'I served as the designer on the business side of the mobile application. This included UX research, sketches, wireframes and design comps.'
+				description: 'I served as the UX/UI designer.'
 			},
 			{
 				title: 'Target audience:',
