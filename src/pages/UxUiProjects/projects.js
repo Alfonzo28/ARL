@@ -66,7 +66,7 @@ export const projects = [
 		body: [
 			{
 				title: 'My role on the project:',
-				description: 'I served as the designer on the Capitec W.A.R.M project.'
+				description: 'I served as the UX/UI designer on the Capitec W.A.R.M project.'
 			},
 			{
 				title: 'Target audience:',
