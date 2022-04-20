@@ -10,6 +10,7 @@ jobs:
     name: Deploy my app
 
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [14.15.1]
@@ -24,6 +25,10 @@ jobs:
           token: "${{ github.token }}"
           target_url: https://Alfonzo28.github.io/ARL
           environment: production
+
+      - name: Node Version
+        run: |
+          npm -v
 
       - name: NPM Version
         run: |
