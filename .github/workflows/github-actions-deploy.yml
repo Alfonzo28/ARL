@@ -28,7 +28,7 @@ jobs:
 
       - name: Node Version
         run: |
-          npm -v
+          node -v
 
       - name: NPM Version
         run: |
