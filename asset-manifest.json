@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ARL/static/css/main.090cfb4c.chunk.css",
-    "main.js": "/ARL/static/js/main.008b11b9.chunk.js",
-    "main.js.map": "/ARL/static/js/main.008b11b9.chunk.js.map",
+    "main.css": "/ARL/static/css/main.b060600f.chunk.css",
+    "main.js": "/ARL/static/js/main.ffc7f8c9.chunk.js",
+    "main.js.map": "/ARL/static/js/main.ffc7f8c9.chunk.js.map",
     "runtime-main.js": "/ARL/static/js/runtime-main.70499495.js",
     "runtime-main.js.map": "/ARL/static/js/runtime-main.70499495.js.map",
     "static/js/2.e9eb44e7.chunk.js": "/ARL/static/js/2.e9eb44e7.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.9a23141b.chunk.js": "/ARL/static/js/3.9a23141b.chunk.js",
     "static/js/3.9a23141b.chunk.js.map": "/ARL/static/js/3.9a23141b.chunk.js.map",
     "index.html": "/ARL/index.html",
-    "static/css/main.090cfb4c.chunk.css.map": "/ARL/static/css/main.090cfb4c.chunk.css.map",
+    "static/css/main.b060600f.chunk.css.map": "/ARL/static/css/main.b060600f.chunk.css.map",
     "static/js/2.e9eb44e7.chunk.js.LICENSE.txt": "/ARL/static/js/2.e9eb44e7.chunk.js.LICENSE.txt",
     "static/media/Absa 1.b8b09cb5.png": "/ARL/static/media/Absa 1.b8b09cb5.png",
     "static/media/Absa 2.56265507.png": "/ARL/static/media/Absa 2.56265507.png",
-    "static/media/Absa Header.5cce2e1f.png": "/ARL/static/media/Absa Header.5cce2e1f.png",
+    "static/media/UxUiProjects.scss": "/ARL/static/media/Westbury Header.cc6ec109.png",
     "static/media/App.scss": "/ARL/static/media/BG.72fbff61.svg",
     "static/media/Behance.d798e7ce.svg": "/ARL/static/media/Behance.d798e7ce.svg",
     "static/media/Branding.ceecd2b0.png": "/ARL/static/media/Branding.ceecd2b0.png",
@@ -35,7 +35,6 @@
     "static/media/Pro-Find 4.f9d4d6e7.png": "/ARL/static/media/Pro-Find 4.f9d4d6e7.png",
     "static/media/Pro-Find 5.75170012.png": "/ARL/static/media/Pro-Find 5.75170012.png",
     "static/media/Pro-Find 6.6353a707.png": "/ARL/static/media/Pro-Find 6.6353a707.png",
-    "static/media/Pro-Find header.8689c1c0.png": "/ARL/static/media/Pro-Find header.8689c1c0.png",
     "static/media/Quote.3fb88f3e.svg": "/ARL/static/media/Quote.3fb88f3e.svg",
     "static/media/Sketches.b456ce5c.png": "/ARL/static/media/Sketches.b456ce5c.png",
     "static/media/Test 1.b30b02d8.png": "/ARL/static/media/Test 1.b30b02d8.png",
@@ -44,10 +43,8 @@
     "static/media/Test 4.e34e157e.png": "/ARL/static/media/Test 4.e34e157e.png",
     "static/media/Vikela Portal 1.b1d35bd2.png": "/ARL/static/media/Vikela Portal 1.b1d35bd2.png",
     "static/media/Vikela Portal 2.ba763cbb.png": "/ARL/static/media/Vikela Portal 2.ba763cbb.png",
-    "static/media/Vikela Portal Header.b8e78dcd.png": "/ARL/static/media/Vikela Portal Header.b8e78dcd.png",
     "static/media/Vikela light 1.4a5773ec.png": "/ARL/static/media/Vikela light 1.4a5773ec.png",
     "static/media/Vikela light 2.471eb992.png": "/ARL/static/media/Vikela light 2.471eb992.png",
-    "static/media/VikelaWeb Header.41474642.png": "/ARL/static/media/VikelaWeb Header.41474642.png",
     "static/media/VikelaWeb black 1.0ab9d5bb.png": "/ARL/static/media/VikelaWeb black 1.0ab9d5bb.png",
     "static/media/VikelaWeb black 2.908f2882.png": "/ARL/static/media/VikelaWeb black 2.908f2882.png",
     "static/media/Vimeo.9dd60b5b.svg": "/ARL/static/media/Vimeo.9dd60b5b.svg",
@@ -68,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.70499495.js",
     "static/js/2.e9eb44e7.chunk.js",
-    "static/css/main.090cfb4c.chunk.css",
-    "static/js/main.008b11b9.chunk.js"
+    "static/css/main.b060600f.chunk.css",
+    "static/js/main.ffc7f8c9.chunk.js"
   ]
 }
