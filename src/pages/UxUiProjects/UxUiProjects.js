@@ -58,6 +58,7 @@ class UxUiProjects extends Component {
 			</div>
 		);
 	}
+	
 	generateProjects(projectCards) {
 		if (projectCards?.length > 0) {
 			return projectCards.map((projectCard, index) => this.renderCards(projectCard, index, projectCards?.length));
